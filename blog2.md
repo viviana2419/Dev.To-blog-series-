@@ -1,6 +1,6 @@
 # Access User Data from Microsoft Graph
 
-In the previous blog post, you have learnt about the basics of PowerPlatform and Microsoft Graph. In this one, we will elaborate more on Graph specifically and provide examples in the field of **education** regarding** how to access user data**. After reading this, you will get an idea about how to use Graph to work with users in MS 365 including the required permissions.
+In the previous blog post, you have learnt about the basics of PowerPlatform and Microsoft Graph. In this one, we will elaborate more on Graph specifically and provide examples in the field of **education** regarding **how to access user data**. After reading this, you will get an idea about how to use Graph to work with users in MS 365 including the required permissions.
 
 ## Objectives and Prerequisites
 Users are the core of most operations in Microsoft 365. Microsoft Graph enables developers full control over the lifecycle of users in Microsoft 365 including creating, updating, and deleting users and to listing users in the organization. 
@@ -32,7 +32,7 @@ The user resource is **the gateway to resources related to a user**. The user ca
 
 Following are some **examples of things you can do with Graph user resource**:
 * **Manage your organization** by creating new users in your organization or update the resources and relationships for existing users. E.g. Create or delete users in your Azure AD organization, Upload or retrieve a photo for the user, etc
-* **Work with calendars and tasks **through viewing, querying and updating user calendar. E.g. Find free meeting times for a set of users, get a list of reminders set on a user's calendar, etc
+* **Work with calendars and tasks** through viewing, querying and updating user calendar. E.g. Find free meeting times for a set of users, get a list of reminders set on a user's calendar, etc
 * **Administer mail and handle contacts** by configuring user mail settings and send mail on a user's behalf. E.g. List mail messages and send new mail, retrieve and update mailbox folders and settings, etc
 * **Gather user insights**. E.g. Return documents recently viewed and modified by a user, return documents and sites trending around a user's activity, etc
 
@@ -52,7 +52,7 @@ There are** two ways** you can do it:
 ## Back to the case
 So now after you have a basic idea about Graph's functionality, let's go back to the scenario and see **how to get a class of student info from Graph**. There are two ways, build a **Graph application** or access from the **Graph webpage**. 
 
-To begin with, if you haven't used Graph before, developing Microsoft Graph apps requires a** Microsoft 365 tenant**. You can follow the instructions on the [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) site for obtaining a developer tenant if you don't currently have a Microsoft 365 account. Then, you'll create an Azure AD application, a .NET Core console application, then finally display the currently signed in user's details. For specific demo video and documentation, please check it out [here](https://docs.microsoft.com/en-gb/learn/modules/msgraph-access-user-data/3-exercise-reading-users).
+To begin with, if you haven't used Graph before, developing Microsoft Graph apps requires a **Microsoft 365 tenant**. You can follow the instructions on the [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) site for obtaining a developer tenant if you don't currently have a Microsoft 365 account. Then, you'll create an Azure AD application, a .NET Core console application, then finally display the currently signed in user's details. For specific demo video and documentation, please check it out [here](https://docs.microsoft.com/en-gb/learn/modules/msgraph-access-user-data/3-exercise-reading-users).
 
 Moreover, if you already have an account set up and have some experience with Graph. You can access from **Graph Explore**. For example, if you log in as a teach account, you can have a look a the list of classes. by using this query: 
 
@@ -78,7 +78,7 @@ Interested in learning more about Graph? We saw this ahead and prepared the **fo
 * [MS Doc: Graph Education API overview](https://docs.microsoft.com/en-us/graph/education-concept-overview)
 
 ## Summary
-Good job in reading so far! In this post, we learned what can you do with the Microsoft Graph user resource, how to access user data through Microsoft Graph in different ways, and how to use Graph solve problems in the realm of education. How's it going with you? Please comment below! Our next blog will talk about how to connect Microsoft Graph with Power Apps. Stay tuned!
+Good job in reading so far! In this post, we learned what can you do with the Microsoft Graph user resource, how to access user data through Microsoft Graph in different ways, and how to use Graph solve problems in the realm of education. How's it going with you? Please **comment below**! Our next blog will talk about **how to connect Microsoft Graph with Power Apps**. Stay tuned!
 ![image](https://user-images.githubusercontent.com/49314681/168434029-37979fd2-dc55-4c32-ba53-eb42fae7232d.png)
 
 
