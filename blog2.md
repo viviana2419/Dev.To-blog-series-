@@ -5,12 +5,12 @@ In the previous blog post, you have learnt about the basics of PowerPlatform and
 ## Objectives and Prerequisites
 Users are the core of most operations in Microsoft 365. Microsoft Graph enables developers full control over the lifecycle of users in Microsoft 365 including creating, updating, and deleting users and to listing users in the organization. 
 
-Thus, we are interested in 
+Thus, are you interested in... 
 * How to get a list of users?
 * How to get details, including multi-media, of a user?
 * how to manage the lifecycle of a user from creation to deletion?
 
-In order to get those objectives, you need to have...
+In order to get those objectives, you should have...
 * Basic knowledge of REST services & APIs
 * Basic knowledge of Microsoft Graph
 * Ability to develop with NET Core at the intermediate level
@@ -43,3 +43,36 @@ There are two ways you can do it:
 
       GraphServiceClient graphClient = GetAuthenticatedGraphClient(...);
       var users = graphClient.Users.Request().GetAsync().Result;
+      
+## Back to the case
+So now after you have a basic idea about Graph's functionality, let's go back to the scenario and see how to get a class of student info from Graph. There are two ways, build a Graph application or access from the Graph webpage. 
+
+To begin with, if you haven't used Graph before, developing Microsoft Graph apps requires a Microsoft 365 tenant. You can follow the instructions on the [Microsoft 365 Developer Program](https://developer.microsoft.com/microsoft-365/dev-program) site for obtaining a developer tenant if you don't currently have a Microsoft 365 account. Then, you'll create an Azure AD application, a .NET Core console application, then finally display the currently signed in user's details. For specific demo video and documentation, please check it out [here](https://docs.microsoft.com/en-gb/learn/modules/msgraph-access-user-data/3-exercise-reading-users).
+
+Moreover, if you already have an account set up and have some experience with Graph. You can access from Graph Explore. For example, if you log in as a teach account, you can have a look a the list of classes. by using this query: 
+
+      GET /education/me/classes
+      GET /education/users/{id}/classes
+      
+Then, it'll return a list of classes like below. 
+![image](https://user-images.githubusercontent.com/49314681/168429511-5298b328-e5c7-4a8a-966a-ad38ea8f7dd9.png)
+
+From there, you can find descriptions of the classes codes for the class you taught and other details. Then, you can copy the class ID of one of those. In ther search query, put 
+
+      GET https://graph.microsoft.com/v1.0/education/classes/{class-id}/members
+
+Then, you'll get a list of members of that specific class.
+![image](https://user-images.githubusercontent.com/49314681/168430376-c6b5303c-797f-4b44-842d-0b7b211dc2a4.png)
+
+As a result, you'll get information about students and whose data are always updated since it sync with school's back-end system. Pretty cool right?
+## Next Steps
+Interested in learning more about Graph? We saw this ahead and prepared the following resources for you to explore:
+
+* [MS-Learn: Build apps with Microsoft Graph – Associate](https://docs.microsoft.com/en-gb/learn/paths/m365-msgraph-associate/)
+* [MS Doc: Overview of Microsoft Graph](https://docs.microsoft.com/en-us/graph/overview)
+* [MS Doc: Graph Education API overview](https://docs.microsoft.com/en-us/graph/education-concept-overview)
+
+## Summary
+Good job in reading so far! In this post, we learned what can you do with the Microsoft Graph user resource, how to access user data through Microsoft Graph in different ways, and how to use Graph solve problems in the realm of education. How's it going with you? Please comment below! Our next blog will talk about how to connect Microsoft Graph with Power Apps. Stay tuned!
+
+
