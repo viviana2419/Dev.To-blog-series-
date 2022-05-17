@@ -6,4 +6,4 @@ This blog series introduce Power platform ecosystem with Microsoft Graph with us
 * Blog 3: Creating Microsoft Graph custom connector in Power Apps
 * Blog 4: Call Microsoft Graph API in Power Automate using custom connector
 * Blog 5: Connecting Power BI to Microsoft Graph
-* Blog 6: Bring AI to your life with Power Virtual Agents and Ms Graph
+* [Blog 6: Bring AI to your life with Power Virtual Agents and Ms Graph](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/Blog6.md)
