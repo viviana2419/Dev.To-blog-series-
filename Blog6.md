@@ -87,5 +87,5 @@ Interested in learning more about Power Virtual Agent? Here are some **resources
 ## Final Note
 **Great work** if you read till the end! We learned **what is Power Virtual Agent and where they are being used**. We walked through **how to create bot and connect it with Graph API**. **Let us know** if this post is helpful. **Thank you for reading and we are proud of your learning mindset!**
 
-![image](https://user-images.githubusercontent.com/49314681/168832899-070917e6-c6cb-43c0-a7b3-f815ae140bec.png)
+![image](https://user-images.githubusercontent.com/49314681/168835438-6630556b-b783-4a06-aa70-62dbf1c53f58.png)
 
