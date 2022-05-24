@@ -39,4 +39,16 @@ The very first question that arises in our mind before starting with Power Platf
 
 In this competitive world every business owner is always in search of how to innovate and upgrade his/her business. And in this regard. Microsoft Power Platform has a great impact on approximately every kind of business. With the help of Microsoft Power Platform, we can automate our business and can utilize our time accurately and wisely. It can simplify the tedious tasks which seem to be more burden as compared to actual job tasks.
 
+# 4. Introduction to power platform
+Power platform is a platform which consists of four components and many underlying technologies that all the applications can use. The four components are:
+- Power Apps
+- Power Automate
+- Power BI
+- Power virtual agents
 
+We will discuss all of them one by one.
+
+So, all these apps combinedly forms a powerful platform called Microsoft Power Platform. Microsoft Power Platform is used to provide complex business solutions, analyze the data and make decisions on the basis of analyzed data, visualize the data with the help of graphs, automate a business process and is used to build virtual agents for communication with humans. The most interesting fact about Power Platform is that everyone can use it without having coding skills because it is drag and drop technology and by just dragging and dropping the components, we can build powerful applications. Along with these powerful tools Power Platform also provides other amazing features like AI builder, Microsoft Data verse and connectors which adds more functionalities to these apps. With all these extensions and functionalities Microsoft Power Platform is the leading technology in the low code/no code development.
+
+The Microsoft Power Platform is used by many businesses – both big and small. The following image shows some of the businesses that have chosen to adopt the Microsoft Power Platform to accelerate their business.
+![111](https://user-images.githubusercontent.com/64436573/170120738-dc4102eb-6a5f-47bc-9f44-ac40238b33dc.png)
