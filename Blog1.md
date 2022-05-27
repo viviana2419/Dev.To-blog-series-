@@ -59,3 +59,7 @@ The Microsoft Power Platform is used by many businesses – both big and small. 
 ![111](https://user-images.githubusercontent.com/64436573/170120738-dc4102eb-6a5f-47bc-9f44-ac40238b33dc.png)
 
 So now its time to dive into details of each component of Power Platform.
+
+   - ## POWER APPS
+     ![download](https://user-images.githubusercontent.com/64436573/170779669-e59a8ce3-b4bb-4cfb-9745-7fa2dbb93e36.png)
+
