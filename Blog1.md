@@ -62,4 +62,26 @@ So now its time to dive into details of each component of Power Platform.
 
    - ## POWER APPS
      ![download](https://user-images.githubusercontent.com/64436573/170779669-e59a8ce3-b4bb-4cfb-9745-7fa2dbb93e36.png)
+     
+     PowerApps is a drag and drop interface which allow users to create apps with no-code/low code development. And the apps designed through PowerApps can run on Android, iOS, windows and on any internet browser, this feature of PowerApps makes it the leader of other app development platforms. PowerApps also provides other services, connectors and data platforms which are helpful in creating custom apps for business solutions.	 PowerApps can quickly transform any manual business to digital operations by providing interactive interfaces and several functionalities for better performance.
+     
+     How to create a PowerApps app?
+     
+     1. First click on this link [](https://make.powerapps.com/) and sign in or create account. After signing in below interface will appear which provides various data platforms to import data from and create the app. So we will create an app using excel workbook so I will click on excel
+     ![pa1](https://user-images.githubusercontent.com/64436573/170857112-db9510cd-a0db-4dc5-8926-e1394b04d746.png)
+     2. After clicking on excel below interface will appear  
+![pa2](https://user-images.githubusercontent.com/64436573/170857148-c6b5f964-4aa9-4745-9355-9f17f2ade976.png)
+This interface shows the various connections for importing data. I will click on one drive for business for importing excel workbook and then click on create. After clicking on create, select the file as shown below
+  ![Background](https://user-images.githubusercontent.com/64436573/170857604-db6f4826-4cc5-4e00-a2d1-346011be660d.png)
+     3. After selecting excel file, select table as shown below and then click on connect
+     ![pa3](https://user-images.githubusercontent.com/64436573/170857796-1311b929-2e64-449a-8c54-dd98d955d37b.png)
+     4. After clicking on connect below interface will appear
+     ![pa4](https://user-images.githubusercontent.com/64436573/170857844-101d85e3-5622-4abf-8c06-490c04155721.png)
+     Based on the data, power apps create default app for us which can be customized by us.
+     5. We can now click on icons and can customize them easily. When we click on play button in the top right corner then the interface changes and we can browse our apps and can check it as how it will work after publishing
+     ![pa5](https://user-images.githubusercontent.com/64436573/170858024-a8a73e2a-30c8-42ea-8fde-148d31875171.png)
+     6. After customizing the app we can use it by selecting file and then click on save as and now we can install it on our phones etc
+     
+   - ## POWER AUTOMATE
 
+![download](https://user-images.githubusercontent.com/64436573/170858193-96469cf0-4873-4679-aa38-aee8a25c2de3.png)
