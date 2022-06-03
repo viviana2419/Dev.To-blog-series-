@@ -2,6 +2,7 @@
 Ever wondered **how to bring AI to your day-to-day work?** Our last post will focus on Power Virtual Agents, particularly how to build conversational BOTs with Microsoft Graph. We are going to return user's calendar meeting information through BOT interaction. Some extending ideas could be getting Planner or important email data. This post serves as **a foundation and an inspiration**. So **let's go** ahead and get into the content!
 
 ![image](https://user-images.githubusercontent.com/49314681/168832267-420be9e9-606c-494f-98d2-979b5277ca99.png)
+(from https://www.youtube.com/watch?v=M_uiW2bjLxA)
 
 ## Objectives and Prerequisites
 So why this content is important? I am sure much like myself, most of you are **inundated with a lot of information**, which is **spread across many services** like Email, Calendar, SharePoint, etc. In order to find the right focus from the disparate data, we can **bring this information together** by using **Power Virtual Agents** and **Graph**. 
@@ -20,7 +21,9 @@ Microsoft Power Virtual Agents empowers teams to create powerful bots through a 
 
 Each one of us wears **multiple hats at work** sometimes. For example, a university professor may be a lecturer, a researcher and a faculty staff for one semester! Hence, there could be a lot of different meetings and projects. **To efficiently and interactively navigate through information**, our chatbot would come to the field. It can **help to show a list and give suggestions**, just **like a personal assistant**. 
 
-![image](https://user-images.githubusercontent.com/49314681/168832649-966bc2c8-4a90-454c-b773-640cb3852439.png)
+![image](https://user-images.githubusercontent.com/49314681/171876104-e8758ff1-1243-49ec-88e7-dd6133d3bce0.png)
+
+(from https://iconscout.com/illustration/virtual-assistant-2130746)
 
 Moreover, it includes the **following features to enhance your bot's functionality** to make it even **more powerful**:
 * Initiate Microsoft Power Automate flows, which is being used in our following demo
@@ -87,5 +90,5 @@ Interested in learning more about Power Virtual Agent? Here are some **resources
 ## Final Note
 **Great work** if you read till the end! We learned **what is Power Virtual Agent and where they are being used**. We walked through **how to create bot and connect it with Graph API**. **Let us know** if this post is helpful. **Thank you for reading and we are proud of your learning mindset!**
 
-![image](https://user-images.githubusercontent.com/49314681/168835438-6630556b-b783-4a06-aa70-62dbf1c53f58.png)
+![image](https://user-images.githubusercontent.com/49314681/171876404-948597bf-7d79-4919-958b-c1ed30576ffa.png)
 
