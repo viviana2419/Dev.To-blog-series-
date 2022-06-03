@@ -18,12 +18,13 @@ In order to get those objectives, **you should have**...
 * Access to a Microsoft 365 tenant
 
 However, **you don't have to check all those boxes!** Your interest and willingness to learn are the key. Once we go through the following demonstration process, there are [additional resources](https://docs.microsoft.com/en-gb/learn/paths/m365-msgraph-associate/) for you to practice and learn more. **So, let's go!**
-![image](https://user-images.githubusercontent.com/49314681/168433112-4cc79cad-a0bf-4f37-a2e6-2a15c6717007.png)
+
 
 ## Why integrate with education scenarios?
 Imagine a teacher who went to a conference and got excited about certain great applications. After she came back, the first thing she need to do is to **load the list of students into the app**. It doesn't sound like a fun task to do, right? It can also be kind of a barrier to entry at times when there is a large class or a lot of details needed. 
 
 ![image](https://user-images.githubusercontent.com/49314681/168432737-4a7e439f-0c96-4b79-ae26-a036b1ab507e.png)
+(from https://pin.it/28Oyt9U)
 
 This scenario doesn't only happen to teachers, but to students or education software developers who may find key pieces of information are typically locked away inside a school Student Information System (SIS). Any time teachers bring a new application into their classroom, they **spend time manually importing roster data** into the app. Time-consuming, isn't it? And here is where **Graph could come in and help.** 
 
@@ -37,7 +38,7 @@ Following are some **examples of things you can do with Graph user resources**:
 * **Gather user insights**. E.g. Return documents recently viewed and modified by a user, return documents and sites trending around a user's activity, etc
 
 ## How to access users through Microsoft Graph?
-There are** two ways** you can do it:
+There are **two ways** you can do it:
 1. Access the signed-in user through the "me" alias at https://graph.microsoft.com/v1.0/me. This alias maps to the same endpoint as /users/{signed-in user's id}.
 
       To access a specific user, use either their ID or their userPrincipalName. For example:
@@ -79,7 +80,8 @@ Interested in learning more about Graph? We saw this ahead and prepared the **fo
 
 ## Summary
 Good job on reading so far! In this post, we learned what can you do with the Microsoft Graph user resource, how to access user data through Microsoft Graph in different ways, and how to use Graph to solve problems in the realm of education. How's it going with you? Please **comment below**! Our next blog will talk about **how to connect Microsoft Graph with Power Apps**. Stay tuned!
-![image](https://user-images.githubusercontent.com/49314681/168434029-37979fd2-dc55-4c32-ba53-eb42fae7232d.png)
+![image](https://user-images.githubusercontent.com/49314681/171875194-48de3bfe-5dd7-49ac-9513-c0ca81b09760.png)
+(from https://pin.it/4JwkcWS)
 
 
 
