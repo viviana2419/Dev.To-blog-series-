@@ -30,8 +30,7 @@ Connectors help make it easier for app and flow makers to connect to other apps,
 ## Prerequisites
 None except the willingness to learn. This tutorial will be a beginner friendly step by step process. Are you ready? Let's go!
 
-## Procedure
-## * Create a custom connector
+## Create a custom connector
 1. Check the connector reference to determine if a suitable connector already exists for the API/service.
 
 2. Manually edit the connector definition in the maker portal or by importing a definition in a supported format. This process includes identifying the authentication requirements for the API.
@@ -40,7 +39,7 @@ None except the willingness to learn. This tutorial will be a beginner friendly 
 
 4. Custom connectors are only available in environments where their definition exists and are not available to other Microsoft customers. By sharing a custom connector definition as an open source, you make it available on GitHub for other customers to import into their environments. 
 
-## * Configure custom connectors with authenticated APIs in Power Automate
+## Configure custom connectors with authenticated APIs in Power Automate
 
 * Azure API Management Gateway
 Custom connectors are supported by Microsoft Azure API Management infrastructure. When a connection to the underlying API is created, the API Management gateway stores the API credentials or tokens, depending on the type of authentication used, on a per-connection basis in a token store. This solution enables authentication at the connection level. 
