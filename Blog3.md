@@ -20,4 +20,5 @@ One can use Microsoft Graph to:
 * Help one sort out personal and work information on a phone. For example, by categorizing pictures that should go to your personal OneDrive and business receipts that should go to your OneDrive for Business.
 * Analyze at-scale Microsoft 365 data so that decision makers can unlock valuable insights into time allocation and collaboration patterns that improve business productivity.
 * Bring custom business data into Microsoft Graph, indexing it to make it searchable along with data from Microsoft 365 services.
-[![img1.png](https://i.postimg.cc/zDdKMxM8/img1.png)](https://postimg.cc/ThDK5Jf4)
+![image](https://drive.google.com/file/d/1PugjRb5OWOrjDCcCdW3hp58ybJuOw2tf/view?usp=sharing)
+
