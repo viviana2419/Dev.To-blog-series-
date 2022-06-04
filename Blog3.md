@@ -20,5 +20,47 @@ One can use Microsoft Graph to:
 * Help one sort out personal and work information on a phone. For example, by categorizing pictures that should go to your personal OneDrive and business receipts that should go to your OneDrive for Business.
 * Analyze at-scale Microsoft 365 data so that decision makers can unlock valuable insights into time allocation and collaboration patterns that improve business productivity.
 * Bring custom business data into Microsoft Graph, indexing it to make it searchable along with data from Microsoft 365 services.
-![image](https://drive.google.com/file/d/1PugjRb5OWOrjDCcCdW3hp58ybJuOw2tf/view?usp=sharing)
 
+## What are custom connectors?
+Connectors help make it easier for app and flow makers to connect to other apps, data, and devices in the cloud in the following ways:
+* Connection is done in a consistent, repeatable way that is discoverable by makers.
+* Connectors have actions that allow makers to control when an operation is performed.
+* Connectors can have triggers that allow automation to start when the triggering event occurs.
+
+## Prerequisites
+None except the willingness to learn. This tutorial will be a beginner friendly step by step process. Are you ready? Let's go!
+
+## Procedure
+## * Create a custom connector
+1. Check the connector reference to determine if a suitable connector already exists for the API/service.
+
+2. Manually edit the connector definition in the maker portal or by importing a definition in a supported format. This process includes identifying the authentication requirements for the API.
+
+3. Custom connectors can be used in the same way as built-in connectors. These connectors can also be used in an environment other than the one that you used to create it. The connector definition needs to be exported from the environment where it was created and then imported into any environment that needs it. 
+
+4. Custom connectors are only available in environments where their definition exists and are not available to other Microsoft customers. By sharing a custom connector definition as an open source, you make it available on GitHub for other customers to import into their environments. 
+
+## * Configure custom connectors with authenticated APIs in Power Automate
+
+* Azure API Management Gateway
+
+1. Custom connectors are supported by Microsoft Azure API Management infrastructure.
+
+3. When a connection to the underlying API is created, the API Management gateway stores the API credentials or tokens, depending on the type of authentication used, on a per-connection basis in a token store. Because only an authenticated user can create a connection, the connections are always authenticated. This solution enables authentication at the connection level. 
+
+* Azure API Authentication
+
+1. Before using any connector in Azure Logic Apps, Power Automate, or Power Apps, the user needs to create a connection by authenticating to the network service. 
+
+2. When the No authentication option is selected, no further information is required. The user won't need authentication to create a connection to the custom connector, and any anonymous user can use the connector.
+
+3. The simplest type of authentication is Basic authentication, where the user will provide the user name and password to create the connection. The values that you enter under the Parameter label column aren't the actual user name or password; they're labels for these fields that the user will see while creating the connection.
+
+4. API Key is a popular authentication scheme that is used by web services. For example, Microsoft Azure Functions includes code parameters as part of the default template. Make sure that you define the following values:
+Parameter label - The label for the user prompt when a new connection is created.
+Parameter name - The name of the parameter that will contain the key value during each service request.
+Parameter location - Gives makers an option to send the API key in the request header or the query string when they are calling the underlying service.
+
+5. The OAuth 2.0 authentication scheme is only available for online connectors. Other than providing support for Generic OAuth 2.0, the platform provides implementations for specific services, including Azure Active Directory (Azure AD), GitHub, Microsoft account, and more. Prebuilt identity provider templates, when selected, fill in many of the fields that are required by OAuth 2.0, with provider-specific values reducing what you need to provide.
+
+6. The Windows authentication option is available only for connections that use on-premises data gateway, when the Connect via on-premises data gateway check box is set on the General tab. No additional information is required for the Windows authentication scheme. When a new connection is created, the user will need to provide Windows credentials for the service and then select one of the installed on-premises gateways.
