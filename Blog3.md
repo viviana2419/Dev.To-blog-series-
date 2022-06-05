@@ -39,7 +39,8 @@ None except the willingness to learn. This tutorial will be a beginner friendly 
 * Custom connectors are only available in environments where their definition exists and are not available to other Microsoft customers. By sharing a custom connector definition as an open source, you make it available on GitHub for other customers to import into their environments. 
 
 **Step 1:** Create a new solution.
-
+1. Go to [Power Apps maker portal](https://make.powerapps.com/) and make sure to be in the correct environment.
+2. Select Solutions > + New solution and enter the following details. Don't navigate away from this page after selecting 'Create'.
 ![img2](https://user-images.githubusercontent.com/58803999/172056163-171285f5-e10a-4a32-bc91-77672dc5b370.png)
 
 **Step 2:** Use Graph Explorer to test the API.
