@@ -39,6 +39,7 @@ None except the willingness to learn. This tutorial will be a beginner friendly 
 * Custom connectors are only available in environments where their definition exists and are not available to other Microsoft customers. By sharing a custom connector definition as an open source, you make it available on GitHub for other customers to import into their environments. 
 
 Step 1: Create a new solution.
+
 ![img2](https://user-images.githubusercontent.com/58803999/172056163-171285f5-e10a-4a32-bc91-77672dc5b370.png)
 
 Step 2: 
@@ -49,14 +50,19 @@ Step 2:
 5. Select Sites.Read.All and then select Consent.
 6. Read the requested permissions and then continue if you agree.
 7. Select Run query again.
+
 ![img3](https://user-images.githubusercontent.com/58803999/172056304-734b0bd3-64ff-4910-9f24-e46dc6184ebc.png)
-8. SIgn in to [OneDrive Personal Cloud Storage](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage)
+
+8. Sign in to [OneDrive Personal Cloud Storage](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage)
+
 ![igm4](https://user-images.githubusercontent.com/58803999/172056308-ea37b87a-24cd-497e-9594-365e6500e991.png)
+
 9. Enter some test text in the Word file. The document will be saved automatically for you.
 10. Go back to the Graph Explorer.
 11. Run the same query again.
 12. You should now get a response with values.
 13. Select the response JSON, right-click, select Copy, and then save it.
+
 ![img5](https://user-images.githubusercontent.com/58803999/172056314-3d3046c6-96de-407c-ac40-0c4b9a6c0347.png)
 
 
