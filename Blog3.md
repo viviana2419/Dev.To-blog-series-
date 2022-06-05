@@ -77,6 +77,7 @@ None except the willingness to learn. This tutorial will be a beginner friendly 
 ![img9](https://user-images.githubusercontent.com/58803999/172056948-79452de0-eb96-4726-ae25-8c21f8936302.png)
 
 4. Select API permissions and then select + Add a permission.
+
 ![img8](https://user-images.githubusercontent.com/58803999/172056923-5f15f43f-1151-4869-bcec-f17c5fa7cba6.png)
 
 5. Select Certificates & secrets and + New client secret.
