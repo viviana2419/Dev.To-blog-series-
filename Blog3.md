@@ -45,17 +45,18 @@ None except the willingness to learn. This tutorial will be a beginner friendly 
 
 **Step 2:** Use Graph Explorer to test the API.
 1. Sign in to the [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer) and use it to test the API.
-2. Make sure that GET is selected for the verb, add /insights/used to the URL, and then select Run query.
-3. You should get a 403 error indicating that Graph Explorer lacks your permission to perform this action.
-4. Select the Modify permissions tab to grant Graph Explorer permission.
-5. Select Sites.Read.All and then select Consent.
-6. Read the requested permissions and then continue if you agree.
-7. Select Run query again.
+2. Read the permissions and continue if you agree.
+3. Make sure that GET is selected for the verb, add /insights/used to the URL, and then select Run query.
+4. You should get a 403 error indicating that Graph Explorer lacks your permission to perform this action.
+5. Select the Modify permissions tab to grant Graph Explorer permission.
+6. Select Sites.Read.All and then select Consent.
+7. Read the requested permissions and then continue if you agree.
+8. Select Run query again. 
 
 ![img3](https://user-images.githubusercontent.com/58803999/172056304-734b0bd3-64ff-4910-9f24-e46dc6184ebc.png)
 
 8. Sign in to [OneDrive Personal Cloud Storage](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage)
-
+9. Select + New and select Word document. 
 ![igm4](https://user-images.githubusercontent.com/58803999/172056308-ea37b87a-24cd-497e-9594-365e6500e991.png)
 
 9. Enter some test text in the Word file. The document will be saved automatically for you.
