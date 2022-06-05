@@ -42,7 +42,7 @@ Step 1: Create a new solution.
 
 ![img2](https://user-images.githubusercontent.com/58803999/172056163-171285f5-e10a-4a32-bc91-77672dc5b370.png)
 
-Step 2: 
+Step 2: Use Graph Explorer to test the API.
 1. Sign in to the [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer) and use it to test the API.
 2. Make sure that GET is selected for the verb, add /insights/used to the URL, and then select Run query.
 3. You should get a 403 error indicating that Graph Explorer lacks your permission to perform this action.
@@ -65,6 +65,14 @@ Step 2:
 
 ![img5](https://user-images.githubusercontent.com/58803999/172056314-3d3046c6-96de-407c-ac40-0c4b9a6c0347.png)
 
+Step 3: Register a new application and add permissions.
+1. Sin in to [Microsoft Azure](portal.azure.com) with your user admin credentials.
+2. Select Show portal menu and then select Azure Active Directory.
+
+![img6](https://user-images.githubusercontent.com/58803999/172056722-6d4ee677-4c2e-4c5f-a289-0cdf0a4d2646.png)
+![img 7](https://user-images.githubusercontent.com/58803999/172056729-7e41c83e-287f-4e73-bdc7-5decb5cb27a5.png)
+
+4. Enter Learn last used connector for Name, enter https://global.consent.azure-apim.net/redirect for Redirect URI, and then select Register.
 
 ## Next Steps
 [More info on overview of Microsoft Graph](https://docs.microsoft.com/en-us/graph/overview)
