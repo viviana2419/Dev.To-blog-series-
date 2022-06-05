@@ -59,11 +59,11 @@ None except the willingness to learn. This tutorial will be a beginner friendly 
 9. Select + New and select Word document. 
 ![igm4](https://user-images.githubusercontent.com/58803999/172056308-ea37b87a-24cd-497e-9594-365e6500e991.png)
 
-9. Enter some test text in the Word file. The document will be saved automatically for you.
-10. Go back to the Graph Explorer.
-11. Run the same query again.
-12. You should now get a response with values.
-13. Select the response JSON, right-click, select Copy, and then save it.
+10. Enter some test text in the Word file. The document will be saved automatically for you.
+11. Go back to the Graph Explorer.
+12. Run the same query again.
+13. You should now get a response with values.
+14. Select the response JSON, right-click, select Copy, and then save it.
 
 ![img5](https://user-images.githubusercontent.com/58803999/172056314-3d3046c6-96de-407c-ac40-0c4b9a6c0347.png)
 
