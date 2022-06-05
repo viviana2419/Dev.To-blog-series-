@@ -11,6 +11,8 @@
 * Microsoft Graph connectors work in the incoming direction, delivering data external to the Microsoft cloud into Microsoft Graph services and applications to enhance Microsoft 365 experiences such as Microsoft Search.
 * Microsoft Graph Data Connect provides a set of **tools to streamline secure and scalable delivery of Microsoft Graph data** to popular Azure data stores. The cached data serves as data sources for Azure development tools that you can use to build intelligent applications.
 
+![img1](https://user-images.githubusercontent.com/58803999/172055576-a3100eea-e65d-4e97-937d-606b5d0f55e1.png)
+
 ## What are the uses of Microsoft Graph?
 One can use Microsoft Graph to:
 * Look at the next meeting and prepare for it by providing profile information for attendees, as well as information about the latest documents they're working on, and people they're collaborating with.
@@ -31,39 +33,33 @@ Connectors help make it easier for app and flow makers to connect to other apps,
 None except the willingness to learn. This tutorial will be a beginner friendly step by step process. Are you ready? Let's go!
 
 ## Create a custom connector
-1. Check the connector reference to determine if a suitable connector already exists for the API/service.
+* Check the connector reference to determine if a suitable connector already exists for the API/service.
+* Manually edit the connector definition in the maker portal or by importing a definition in a supported format. This process includes identifying the authentication requirements for the API.
+* Custom connectors can be used in the same way as built-in connectors. These connectors can also be used in an environment other than the one that you used to create it. The connector definition needs to be exported from the environment where it was created and then imported into any environment that needs it. 
+* Custom connectors are only available in environments where their definition exists and are not available to other Microsoft customers. By sharing a custom connector definition as an open source, you make it available on GitHub for other customers to import into their environments. 
 
-2. Manually edit the connector definition in the maker portal or by importing a definition in a supported format. This process includes identifying the authentication requirements for the API.
+Step 1: Create a new solution.
+![img2](https://user-images.githubusercontent.com/58803999/172056163-171285f5-e10a-4a32-bc91-77672dc5b370.png)
 
-3. Custom connectors can be used in the same way as built-in connectors. These connectors can also be used in an environment other than the one that you used to create it. The connector definition needs to be exported from the environment where it was created and then imported into any environment that needs it. 
+Step 2: 
+1. Sign in to the [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer) and use it to test the API.
+2. Make sure that GET is selected for the verb, add /insights/used to the URL, and then select Run query.
+3. You should get a 403 error indicating that Graph Explorer lacks your permission to perform this action.
+4. Select the Modify permissions tab to grant Graph Explorer permission.
+5. Select Sites.Read.All and then select Consent.
+6. Read the requested permissions and then continue if you agree.
+7. Select Run query again.
+![img3](https://user-images.githubusercontent.com/58803999/172056304-734b0bd3-64ff-4910-9f24-e46dc6184ebc.png)
+8. SIgn in to [OneDrive Personal Cloud Storage](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage)
+![igm4](https://user-images.githubusercontent.com/58803999/172056308-ea37b87a-24cd-497e-9594-365e6500e991.png)
+9. Enter some test text in the Word file. The document will be saved automatically for you.
+10. Go back to the Graph Explorer.
+11. Run the same query again.
+12. You should now get a response with values.
+13. Select the response JSON, right-click, select Copy, and then save it.
+![img5](https://user-images.githubusercontent.com/58803999/172056314-3d3046c6-96de-407c-ac40-0c4b9a6c0347.png)
 
-4. Custom connectors are only available in environments where their definition exists and are not available to other Microsoft customers. By sharing a custom connector definition as an open source, you make it available on GitHub for other customers to import into their environments. 
 
-## Configure custom connectors with authenticated APIs in Power Automate
-
-* Azure API Management Gateway
-Custom connectors are supported by Microsoft Azure API Management infrastructure. When a connection to the underlying API is created, the API Management gateway stores the API credentials or tokens, depending on the type of authentication used, on a per-connection basis in a token store. This solution enables authentication at the connection level. 
-
-* Azure API Authentication
-Before using any connector in Azure Logic Apps, Power Automate, or Power Apps, the user needs to create a connection by authenticating to the network service. 
-1. No authentication- No further information is required. 
-2. Basic authentication- The user will provide the user name and password to create the connection. 
-3. API Key- Used by web services. Make sure that you define- Parameter label, Parameter name, Parameter location
-4. OAuth 2.0 authentication- Available for online connectors. Provides implementations for specific services and prebuilt identity provider templates, when selected, fill in many of the fields that are required by OAuth 2.0.
-5. Windows authentication- Available only for connections that use on-premises data gateway, when the Connect via on-premises data gateway check box is set on the General tab. When a new connection is created, the user will need to provide Windows credentials for the service and then select one of the installed on-premises gateways.
-
-* Azure AD Authentication
-1. Select the Authentication/Authorization blade.
-2. Enable the App Service Authentication.
-3. Set the default action on unauthorized access.
-4. Configure and register the app in Azure Active Directory.
-
-Follow these steps to set up and configure connectors with Azure AD:
-Register two Azure AD apps:
-1. One to identify and protect API service
-2. One to identify and protect your connector
-3. Delegate permissions. Allow your connector's registered app to make "on-behalf" calls to your service's identity.
-4. Define your connector by providing the client ID, secret, and resource URL information.
-5. Add redirect URLs to the connector app registration.
-If your service is set up with the Cross-Origin Resource Sharing (CORS) scheme, allow list Azure API Management domains (usually azure-apim.net) for CORS on your service.
-
+## Next Steps
+[More info on overview of Microsoft Graph](https://docs.microsoft.com/en-us/graph/overview)
+[Configuration of custom connectors with API](https://docs.microsoft.com/en-us/learn/modules/configure-custom-connectors-api/)
