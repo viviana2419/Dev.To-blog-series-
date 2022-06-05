@@ -131,5 +131,3 @@ None except the willingness to learn. This tutorial will be a beginner friendly 
 
 ## Next Steps
 [More info on overview of Microsoft Graph](https://docs.microsoft.com/en-us/graph/overview)
-
-[Configuration of custom connectors with API](https://docs.microsoft.com/en-us/learn/modules/configure-custom-connectors-api/)
