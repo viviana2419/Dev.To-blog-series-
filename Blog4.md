@@ -34,7 +34,7 @@ Go through [Creating Microsoft Graph custom connector in Power Apps](https://git
 
 ![img3](https://user-images.githubusercontent.com/58803999/172056304-734b0bd3-64ff-4910-9f24-e46dc6184ebc.png)
 
-8. Start a new browser session tab. Sign in to [OneDrive Personal Cloud Storage](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage)
+8. Start a new browser session tab. Sign in to [OneDrive Personal Cloud Storage](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage).
 9. Select + New and select Word document. 
 
 ![igm4](https://user-images.githubusercontent.com/58803999/172056308-ea37b87a-24cd-497e-9594-365e6500e991.png)
