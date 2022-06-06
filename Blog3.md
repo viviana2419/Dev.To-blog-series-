@@ -78,4 +78,10 @@ None except the willingness to learn. This tutorial will be a beginner friendly 
 
 ![img12](https://user-images.githubusercontent.com/58803999/172057048-83c4cacd-65fa-47db-823d-ac299f9f7a2d.png)
 
+## Summary
+**Congratulations!** You have now created a Microsft Graph custom connector in Power App and can proceed to learn more in this area. Do leave your feedback in the comments below. Our next blog will on how to [Create Microsoft Graph custom connector in Power Apps](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/Blog3.md). Stay tuned!
 
+## Next Steps
+[More info on overview of Microsoft Graph](https://docs.microsoft.com/en-us/graph/overview)
+
+[List used for building a Microsoft connector](https://docs.microsoft.com/en-us/graph/api/insights-list-used/)
