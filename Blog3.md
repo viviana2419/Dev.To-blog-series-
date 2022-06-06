@@ -66,8 +66,6 @@ Willingness to learn. Are you ready? Let's go!
 
 ![Screenshot (6)](https://user-images.githubusercontent.com/58803999/172186743-3f2b25fb-6187-454d-aa08-a98184a469e9.png)
 
-9. Click on "Test" and select the connection. Test the connection.
-
 ![Img7](https://user-images.githubusercontent.com/58803999/172187284-6c7d0416-0f20-40fa-b1c6-9658351936dd.png)
 
 ## Summary
