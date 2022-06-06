@@ -69,7 +69,7 @@ Willingness to learn. Are you ready? Let's go!
 ![Img7](https://user-images.githubusercontent.com/58803999/172187284-6c7d0416-0f20-40fa-b1c6-9658351936dd.png)
 
 ## Summary
-**Congratulations!** You have created a Microsft Graph custom connector in Power App and can proceed to learn more in this area. Do leave your feedback in the comments below. Our next blog will on how to [call Microsoft Graph API in Power Automate using custom connector](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/blog4.md). Stay tuned!
+**Congratulations!** You have created a Microsft Graph custom connector in Power App and can proceed to learn more in this area. Do leave your feedback in the comments below. Our next blog will on how to [call Microsoft Graph API in Power Automate using custom connector](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/Blog4.md). Stay tuned!
 
 ## Next Steps
 [More info on overview of Microsoft Graph](https://docs.microsoft.com/en-us/graph/overview)
