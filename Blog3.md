@@ -57,7 +57,7 @@ None except the willingness to learn. This tutorial will be a beginner friendly 
 
 ![img3](https://user-images.githubusercontent.com/58803999/172056304-734b0bd3-64ff-4910-9f24-e46dc6184ebc.png)
 
-8. Sign in to [OneDrive Personal Cloud Storage](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage)
+8. Start a new browser session tab. Sign in to [OneDrive Personal Cloud Storage](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage)
 9. Select + New and select Word document. 
 
 ![igm4](https://user-images.githubusercontent.com/58803999/172056308-ea37b87a-24cd-497e-9594-365e6500e991.png)
@@ -70,43 +70,9 @@ None except the willingness to learn. This tutorial will be a beginner friendly 
 
 ![img5](https://user-images.githubusercontent.com/58803999/172056314-3d3046c6-96de-407c-ac40-0c4b9a6c0347.png)
 
-**Step 3:** Register a new application and add permissions.
-1. Sign in to [Microsoft Azure](portal.azure.com) with your user admin credentials.
-2. Select Show portal menu and then select Azure Active Directory.
 
-![img6](https://user-images.githubusercontent.com/58803999/172056722-6d4ee677-4c2e-4c5f-a289-0cdf0a4d2646.png)
 
-3. Enter Learn last used connector for Name, enter https://global.consent.azure-apim.net/redirect for Redirect URI, and then select Register.
 
-![img9](https://user-images.githubusercontent.com/58803999/172056948-79452de0-eb96-4726-ae25-8c21f8936302.png)
-
-4. Select API permissions and then select + Add a permission.
-
-![img8](https://user-images.githubusercontent.com/58803999/172056923-5f15f43f-1151-4869-bcec-f17c5fa7cba6.png)
-
-5. Select Certificates & secrets and + New client secret.
-6. Enter Last used connector action for Description, select In 1 year for Expires, and then select Add.
-7. Copy the Value and save it for later because it won't be shown again. You will use this user secret when creating the connector.
-8. Select Overview.
-9. Copy the Application (Client) ID and save it on a notepad. You'll use this client ID when creating the connector.
-
-![img12](https://user-images.githubusercontent.com/58803999/172057048-83c4cacd-65fa-47db-823d-ac299f9f7a2d.png)
-
-**Step 4:** Create a custom connector.
-1. Make sure to sign in and be in the right environment in the [Power Apps Admin Portal](https://make.powerapps.com/home/).
-2. Select Solutions and then select to open the Contoso graph solution that you created in 'Step 1: Create a new solution'.
-3. Select + New > Other > Custom connector.
-4. Enter Contoso graph for Connector name.
-5. Scroll down, enter graph.microsoft.com for Host and /v1.0 for Base URL and select Security.
-
-![img13](https://user-images.githubusercontent.com/58803999/172057226-d41ce5b9-8a91-4b04-8fd0-822e5d706610.png)
-
-6. Select OAuth 2.0 for Authentication.
-7. Select Azure Active Directory for Identity Provider.
-8. Paste the ID that you copied from Azure in the Client id field and then paste the Value that you copied from Azure in the Client secret field.
-9. Enter https://graph.microsoft.com for Resource URL and then select Create connector. Don't navigate away from the page.
-
-![img14](https://user-images.githubusercontent.com/58803999/172057335-1ddd2a8f-cd97-4eb8-bfed-497876258dc1.png)
 
 **Step 5:** Add the action.
 1. Select Definition > + New action.
@@ -131,3 +97,5 @@ None except the willingness to learn. This tutorial will be a beginner friendly 
 
 ## Next Steps
 [More info on overview of Microsoft Graph](https://docs.microsoft.com/en-us/graph/overview)
+
+[List used for building a Microsoft connector](https://docs.microsoft.com/en-us/graph/api/insights-list-used/)
