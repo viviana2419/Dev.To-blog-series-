@@ -58,7 +58,7 @@ Willingness to learn. Are you ready? Let's go!
 
 ![Img4](https://user-images.githubusercontent.com/58803999/172185436-b5293f9f-4754-4aeb-965d-ae33d2531875.png)
 
-7. Go to the Definition option. You can leave as it is and move to the Code (Preview) option.
+7. Go to the Definition option. You can leave it as it is and move to the Code (Preview) option.
 
 ![Img5](https://user-images.githubusercontent.com/58803999/172186091-85c88a0a-25e8-4f5d-93ab-8958acce6d8f.png)
 
