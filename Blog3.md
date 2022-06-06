@@ -38,43 +38,23 @@ None except the willingness to learn. This tutorial will be a beginner friendly 
 * Custom connectors can be used in the same way as built-in connectors. These connectors can also be used in an environment other than the one that you used to create it. The connector definition needs to be exported from the environment where it was created and then imported into any environment that needs it. 
 * Custom connectors are only available in environments where their definition exists and are not available to other Microsoft customers. By sharing a custom connector definition as an open source, you make it available on GitHub for other customers to import into their environments. 
 
-**Step 1:** Create a new solution.
-1. Go to [Power Apps maker portal](https://make.powerapps.com/) and make sure to be in the correct environment.
-2. Select Solutions > + New solution and enter the following details. 
-3. Don't navigate away from this page after selecting 'Create'.
+**Step 1:** Create a custom connector.
+1. Make sure to sign in and be in the right environment in the [Power Apps Admin Portal](https://make.powerapps.com/home/).
+2. Select Solutions and then select to open the Contoso graph solution that you created in 'Step 1: Create a new solution'.
+3. Select + New > Other > Custom connector.
+4. Enter Contoso graph for Connector name.
+5. Scroll down, enter graph.microsoft.com for Host and /v1.0 for Base URL and select Security.
 
-![img2](https://user-images.githubusercontent.com/58803999/172056163-171285f5-e10a-4a32-bc91-77672dc5b370.png)
+![img13](https://user-images.githubusercontent.com/58803999/172057226-d41ce5b9-8a91-4b04-8fd0-822e5d706610.png)
 
-**Step 2:** Use Graph Explorer to test the API.
-1. Sign in to the [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer) and use it to test the API.
-2. Read the permissions and continue if you agree.
-3. Make sure that GET is selected for the verb, add /insights/used to the URL, and then select Run query.
-4. You should get a 403 error indicating that Graph Explorer lacks your permission to perform this action.
-5. Select the Modify permissions tab to grant Graph Explorer permission.
-6. Select Sites.Read.All and then select Consent.
-7. Read the requested permissions and then continue if you agree.
-8. Select Run query again. 
+6. Select OAuth 2.0 for Authentication.
+7. Select Azure Active Directory for Identity Provider.
+8. Paste the ID that you copied from Azure in the Client id field and then paste the Value that you copied from Azure in the Client secret field.
+9. Enter https://graph.microsoft.com for Resource URL and then select Create connector. Don't navigate away from the page.
 
-![img3](https://user-images.githubusercontent.com/58803999/172056304-734b0bd3-64ff-4910-9f24-e46dc6184ebc.png)
+![img14](https://user-images.githubusercontent.com/58803999/172057335-1ddd2a8f-cd97-4eb8-bfed-497876258dc1.png)
 
-8. Start a new browser session tab. Sign in to [OneDrive Personal Cloud Storage](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage)
-9. Select + New and select Word document. 
-
-![igm4](https://user-images.githubusercontent.com/58803999/172056308-ea37b87a-24cd-497e-9594-365e6500e991.png)
-
-10. Enter some test text in the Word file. The document will be saved automatically for you.
-11. Go back to the Graph Explorer.
-12. Run the same query again.
-13. You should now get a response with values.
-14. Select the response JSON, right-click, select Copy, and then save it.
-
-![img5](https://user-images.githubusercontent.com/58803999/172056314-3d3046c6-96de-407c-ac40-0c4b9a6c0347.png)
-
-
-
-
-
-**Step 5:** Add the action.
+**Step 2:** Add the action.
 1. Select Definition > + New action.
 2. Enter Last used for Summary and LastUsed for Operation ID. Go to the Request section and select + Import from sample.
 3. Select Get for the verb, enter /me/insights/used for URL, and then select Import. Scroll down and select the default response.
@@ -84,7 +64,7 @@ None except the willingness to learn. This tutorial will be a beginner friendly 
 
 5. Select Update connector. Don't navigate away from this page.
 
-**Step 6:** Test the connector.
+**Step 3:** Test the connector.
 1. Select the Test tab and then select + New connection.
 2. Provide your credentials. Read the requested permissions and continue. 
 3. Select Refresh connections and Test operation.
