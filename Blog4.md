@@ -1,8 +1,6 @@
 # Call Microsoft Graph API in Power Automate using custom connector.
 
-## Configuring custom connectors with authenticated APIs in Power Automate
-
-* Azure API Management Gateway
+## Azure API Management Gateway
 Custom connectors are supported by Microsoft Azure API Management infrastructure. When a connection to the underlying API is created, the API Management gateway stores the API credentials or tokens, depending on the type of authentication used, on a per-connection basis in a token store. This solution enables authentication at the connection level. 
 
 ## Azure API Authentication
@@ -20,18 +18,11 @@ Before using any connector in Azure Logic Apps, Power Automate, or Power Apps, t
 4. Configure and register the app in Azure Active Directory.
 
 ## Prerequisites
-None except the willingness to learn. This tutorial will be a beginner friendly step by step process. Are you ready? Let's go!
+Go through [Creating Microsoft Graph custom connector in Power Apps](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/Blog3.md).
 
 ## Call Microsoft Graph API in Power Automate using custom connector.
 
-**Step 1:** Create a new solution.
-1. Go to [Power Apps maker portal](https://make.powerapps.com/) and make sure to be in the correct environment.
-2. Select Solutions > + New solution and enter the following details. 
-3. Don't navigate away from this page after selecting 'Create'.
-
-![img2](https://user-images.githubusercontent.com/58803999/172056163-171285f5-e10a-4a32-bc91-77672dc5b370.png)
-
-**Step 2:** Use Graph Explorer to test the API.
+**Step 1:** Use Graph Explorer to test the API.
 1. Sign in to the [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer) and use it to test the API.
 2. Read the permissions and continue if you agree.
 3. Make sure that GET is selected for the verb, add /insights/used to the URL, and then select Run query.
@@ -56,7 +47,7 @@ None except the willingness to learn. This tutorial will be a beginner friendly 
 
 ![img5](https://user-images.githubusercontent.com/58803999/172056314-3d3046c6-96de-407c-ac40-0c4b9a6c0347.png)
 
-**Step 3:** Register a new application and add permissions.
+**Step 2:** Register a new application and add permissions.
 1. Sign in to [Microsoft Azure](portal.azure.com) with your user admin credentials.
 2. Select Show portal menu and then select Azure Active Directory.
 
@@ -84,4 +75,5 @@ None except the willingness to learn. This tutorial will be a beginner friendly 
 ## Next Steps
 [More info on overview of Microsoft Graph](https://docs.microsoft.com/en-us/graph/overview)
 
-[List used for building a Microsoft connector](https://docs.microsoft.com/en-us/graph/api/insights-list-used/)
+[Basics of Power BI](https://docs.microsoft.com/en-us/power-platform/admin/use-power-bi)
+
