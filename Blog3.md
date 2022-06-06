@@ -77,3 +77,6 @@ Go through [Call Microsoft Graph API in Power Automate using custom connector](h
 [More info on overview of Microsoft Graph](https://docs.microsoft.com/en-us/graph/overview)
 
 [List used for building a Microsoft connector](https://docs.microsoft.com/en-us/graph/api/insights-list-used/)
+
+![2](https://user-images.githubusercontent.com/58803999/172188546-3b608b51-1d64-4719-a614-e84a3eda6db7.jpg)
+
