@@ -30,7 +30,7 @@ Connectors help make it easier for app and flow makers to connect to other apps,
 * Connectors can have triggers that allow automation to start when the triggering event occurs.
 
 ## Prerequisites
-Go through [Call Microsoft Graph API in Power Automate using custom connector](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/Blog4.md).
+Go through [Call Microsoft Graph API in Power Automate using custom connector](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/Blog4.md) for getting the operation ID and JSON response.
 
 ## Create a custom connector
 * Check the connector reference to determine if a suitable connector already exists for the API/service.
@@ -80,7 +80,7 @@ Go through [Call Microsoft Graph API in Power Automate using custom connector](h
 ![img16](https://user-images.githubusercontent.com/58803999/172057496-734122b5-a304-4621-a9d5-7214cf784202.png)
 
 ## Summary
-**Congratulations!** You have now created a Microsft Graph custom connector in Power App and can proceed to learn more in this area. Do leave your feedback in the comments below. Our next blog will on how to **Connect Power BI to Microsoft Graph]**(https://github.com/viviana2419/Dev.To-blog-series-/blob/main/blog5.md). Stay tuned!
+**Congratulations!** You have now created a Microsft Graph custom connector in Power App and can proceed to learn more in this area. Do leave your feedback in the comments below. Our next blog will on how to [call Microsoft Graph API in Power Automate using custom connector](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/blog4.md). Stay tuned!
 
 ## Next Steps
 [More info on overview of Microsoft Graph](https://docs.microsoft.com/en-us/graph/overview)
