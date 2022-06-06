@@ -30,7 +30,7 @@ Connectors help make it easier for app and flow makers to connect to other apps,
 * Connectors can have triggers that allow automation to start when the triggering event occurs.
 
 ## Prerequisites
-None except the willingness to learn. This tutorial will be a beginner friendly step by step process. Are you ready? Let's go!
+Go through [Call Microsoft Graph API in Power Automate using custom connector]() first.
 
 ## Create a custom connector
 * Check the connector reference to determine if a suitable connector already exists for the API/service.
