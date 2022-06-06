@@ -11,18 +11,25 @@ Before using any connector in Azure Logic Apps, Power Automate, or Power Apps, t
 4. OAuth 2.0 authentication- Available for online connectors. Provides implementations for specific services and prebuilt identity provider templates, when selected, fill in many of the fields that are required by OAuth 2.0.
 5. Windows authentication- Available only for connections that use on-premises data gateway, when the Connect via on-premises data gateway check box is set on the General tab. When a new connection is created, the user will need to provide Windows credentials for the service and then select one of the installed on-premises gateways.
 
+## Prerequisites
+Go through [Creating Microsoft Graph custom connector in Power Apps](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/Blog3.md).
+
+## Call Microsoft Graph API in Power Automate using custom connector.
+
 ## Azure AD Authentication
 1. Select the Authentication/Authorization blade.
 2. Enable the App Service Authentication.
 3. Set the default action on unauthorized access.
 4. Configure and register the app in Azure Active Directory.
 
-## Prerequisites
-Go through [Creating Microsoft Graph custom connector in Power Apps](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/Blog3.md).
+**Step 1:** Create a new solution.
+1. Go to [Power Apps maker portal](https://make.powerapps.com/) and make sure to be in the correct environment.
+2. Select Solutions > + New solution and enter the following details. 
+3. Don't navigate away from this page after selecting 'Create'.
 
-## Call Microsoft Graph API in Power Automate using custom connector.
+![img2](https://user-images.githubusercontent.com/58803999/172056163-171285f5-e10a-4a32-bc91-77672dc5b370.png)
 
-**Step 1:** Use Graph Explorer to test the API.
+**Step 2:** Use Graph Explorer to test the API.
 1. Sign in to the [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer) and use it to test the API.
 2. Read the permissions and continue if you agree.
 3. Make sure that GET is selected for the verb, add /insights/used to the URL, and then select Run query.
@@ -47,7 +54,7 @@ Go through [Creating Microsoft Graph custom connector in Power Apps](https://git
 
 ![img5](https://user-images.githubusercontent.com/58803999/172056314-3d3046c6-96de-407c-ac40-0c4b9a6c0347.png)
 
-**Step 2:** Register a new application and add permissions.
+**Step 3:** Register a new application and add permissions.
 1. Sign in to [Microsoft Azure](portal.azure.com) with your user admin credentials.
 2. Select Show portal menu and then select Azure Active Directory.
 
@@ -68,6 +75,38 @@ Go through [Creating Microsoft Graph custom connector in Power Apps](https://git
 9. Copy the Application (Client) ID and save it on a notepad. You'll use this client ID when creating the connector.
 
 ![img12](https://user-images.githubusercontent.com/58803999/172057048-83c4cacd-65fa-47db-823d-ac299f9f7a2d.png)
+
+**Step 4:** Create a custom connector.
+1. Make sure to sign in and be in the right environment in the [Power Apps Admin Portal](https://make.powerapps.com/home/).
+2. Select Solutions and then select to open the Contoso graph solution that you created in 'Step 1: Create a new solution'.
+3. Select + New > Other > Custom connector.
+4. Enter Contoso graph for Connector name.
+5. Scroll down, enter graph.microsoft.com for Host and /v1.0 for Base URL and select Security.
+
+![img13](https://user-images.githubusercontent.com/58803999/172057226-d41ce5b9-8a91-4b04-8fd0-822e5d706610.png)
+
+6. Select OAuth 2.0 for Authentication.
+7. Select Azure Active Directory for Identity Provider.
+8. Paste the ID that you copied from Azure in the Client id field and then paste the Value that you copied from Azure in the Client secret field.
+9. Enter https://graph.microsoft.com for Resource URL and then select Create connector. Don't navigate away from the page.
+
+![img14](https://user-images.githubusercontent.com/58803999/172057335-1ddd2a8f-cd97-4eb8-bfed-497876258dc1.png)
+
+**Step 5:** Add the action.
+1. Select Definition > + New action.
+2. Enter Last used for Summary and LastUsed for Operation ID. Go to the Request section and select + Import from sample.
+3. Select Get for the verb, enter /me/insights/used for URL, and then select Import. Scroll down and select the default response.
+4. Select + Import from sample. Paste the response that you copied from Graph Explorer in the Body field and then select Import.
+
+![img15](https://user-images.githubusercontent.com/58803999/172057424-df1ae93c-917b-4f06-81ba-a749d3dfd447.png)
+
+5. Select Update connector. Don't navigate away from this page.
+
+**Step 6:** Test the connector.
+1. Select the Test tab and then select + New connection.
+2. Provide your credentials. Read the requested permissions and continue. 
+3. Select Refresh connections and Test operation.
+4. You should see a 200 status, and the response should look like the following image.
 
 ## Summary
 **Congratulations!** You have now created an environment to call Microsoft Graph API in Power Automate and can proceed to learn more in this area. Do leave your feedback in the comments below. Our next blog will on how to **[connect Power BI to Microsoft Graph]**(https://github.com/viviana2419/Dev.To-blog-series-/blob/main/blog5.md). Stay tuned!
