@@ -20,7 +20,7 @@ Before using any connector in Azure Logic Apps, Power Automate, or Power Apps, t
 4. Configure and register the app in Azure Active Directory.
 
 ## Prerequisites
-[Create Microsoft Graph custom connector](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/Blog3.md) first.
+None except the willingness to learn. This tutorial will be a beginner friendly step by step process. Are you ready? Let's go!
 
 ## Call Microsoft Graph API in Power Automate using custom connector.
 
