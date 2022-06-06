@@ -12,7 +12,7 @@ Before using any connector in Azure Logic Apps, Power Automate, or Power Apps, t
 5. Windows authentication- Available only for connections that use on-premises data gateway, when the Connect via on-premises data gateway check box is set on the General tab. When a new connection is created, the user will need to provide Windows credentials for the service and then select one of the installed on-premises gateways.
 
 ## Prerequisites
-Go through [Creating Microsoft Graph custom connector in Power Apps](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/Blog3.md).
+Willingness to learn. Are you ready? Let's go!
 
 ## Call Microsoft Graph API in Power Automate using custom connector.
 
