@@ -20,12 +20,6 @@ Before using any connector in Azure Logic Apps, Power Automate, or Power Apps, t
 ## Prerequisites
 Willingness to learn. Are you ready? Let's go!
 
-## Create a custom connector
-* Check the connector reference to determine if a suitable connector already exists for the API/service.
-* Manually edit the connector definition in the maker portal or by importing a definition in a supported format. This process includes identifying the authentication requirements for the API.
-* Custom connectors can be used in the same way as built-in connectors. These connectors can also be used in an environment other than the one that you used to create it. The connector definition needs to be exported from the environment where it was created and then imported into any environment that needs it. 
-* Custom connectors are only available in environments where their definition exists and are not available to other Microsoft customers. By sharing a custom connector definition as an open source, you make it available on GitHub for other customers to import into their environments. 
-
 **Step 1:** Create a new solution.
 1. Go to [Power Apps maker portal](https://make.powerapps.com/) and make sure to be in the correct environment.
 2. Select Solutions > + New solution and enter the following details. 
