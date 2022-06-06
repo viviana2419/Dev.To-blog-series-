@@ -109,7 +109,7 @@ Go through [Creating Microsoft Graph custom connector in Power Apps](https://git
 4. You should see a 200 status, and the response should look like the following image.
 
 ## Summary
-**Congratulations!** You have now created an environment to call Microsoft Graph API in Power Automate and can proceed to learn more in this area. Do leave your feedback in the comments below. Our next blog will on how to **[connect Power BI to Microsoft Graph]**(https://github.com/viviana2419/Dev.To-blog-series-/blob/main/blog5.md). Stay tuned!
+**Congratulations!** You have now created an environment to call Microsoft Graph API in Power Automate and can proceed to learn more in this area. Do leave your feedback in the comments below. Our next blog will on how to [connect Power BI to Microsoft Graph](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/blog5.md). Stay tuned!
 
 ## Next Steps
 [More info on overview of Microsoft Graph](https://docs.microsoft.com/en-us/graph/overview)
