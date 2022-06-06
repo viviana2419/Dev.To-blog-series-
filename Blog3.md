@@ -30,7 +30,8 @@ Connectors help make it easier for app and flow makers to connect to other apps,
 * Connectors can have triggers that allow automation to start when the triggering event occurs.
 
 ## Prerequisites
-Go through [Call Microsoft Graph API in Power Automate using custom connector](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/Blog3.md) first.
+None except the willingness to learn. This tutorial will be a beginner friendly step by step process. Are you ready? Let's go! 
+Go through [Call Microsoft Graph API in Power Automate using custom connector](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/Blog4.md).
 
 ## Create a custom connector
 * Check the connector reference to determine if a suitable connector already exists for the API/service.
@@ -38,7 +39,14 @@ Go through [Call Microsoft Graph API in Power Automate using custom connector](h
 * Custom connectors can be used in the same way as built-in connectors. These connectors can also be used in an environment other than the one that you used to create it. The connector definition needs to be exported from the environment where it was created and then imported into any environment that needs it. 
 * Custom connectors are only available in environments where their definition exists and are not available to other Microsoft customers. By sharing a custom connector definition as an open source, you make it available on GitHub for other customers to import into their environments. 
 
-**Step 1:** Create a custom connector.
+**Step 1:** Create a new solution.
+1. Go to [Power Apps maker portal](https://make.powerapps.com/) and make sure to be in the correct environment.
+2. Select Solutions > + New solution and enter the following details. 
+3. Don't navigate away from this page after selecting 'Create'.
+
+![img2](https://user-images.githubusercontent.com/58803999/172056163-171285f5-e10a-4a32-bc91-77672dc5b370.png)
+
+**Step 2:** Create a custom connector.
 1. Make sure to sign in and be in the right environment in the [Power Apps Admin Portal](https://make.powerapps.com/home/).
 2. Select Solutions and then select to open the Contoso graph solution that you created in 'Step 1: Create a new solution'.
 3. Select + New > Other > Custom connector.
@@ -54,7 +62,7 @@ Go through [Call Microsoft Graph API in Power Automate using custom connector](h
 
 ![img14](https://user-images.githubusercontent.com/58803999/172057335-1ddd2a8f-cd97-4eb8-bfed-497876258dc1.png)
 
-**Step 2:** Add the action.
+**Step 3:** Add the action.
 1. Select Definition > + New action.
 2. Enter Last used for Summary and LastUsed for Operation ID. Go to the Request section and select + Import from sample.
 3. Select Get for the verb, enter /me/insights/used for URL, and then select Import. Scroll down and select the default response.
@@ -64,7 +72,7 @@ Go through [Call Microsoft Graph API in Power Automate using custom connector](h
 
 5. Select Update connector. Don't navigate away from this page.
 
-**Step 3:** Test the connector.
+**Step 4:** Test the connector.
 1. Select the Test tab and then select + New connection.
 2. Provide your credentials. Read the requested permissions and continue. 
 3. Select Refresh connections and Test operation.
@@ -78,4 +86,4 @@ Go through [Call Microsoft Graph API in Power Automate using custom connector](h
 ## Next Steps
 [More info on overview of Microsoft Graph](https://docs.microsoft.com/en-us/graph/overview)
 
-[Basics of Power BI](https://docs.microsoft.com/en-us/power-platform/admin/use-power-bi)
+[List used for building a Microsoft connector](https://docs.microsoft.com/en-us/graph/api/insights-list-used/)
