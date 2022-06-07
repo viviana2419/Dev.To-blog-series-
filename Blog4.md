@@ -20,6 +20,8 @@ Before using any connector in Azure Logic Apps, Power Automate, or Power Apps, t
 ## Prerequisites
 Willingness to learn. Are you ready? Let's go!
 
+## Let's get started!
+
 **Step 1:** Create a new solution.
 1. Go to [Power Apps maker portal](https://make.powerapps.com/) and make sure to be in the correct environment.
 2. Select Solutions > + New solution and enter the following details. 
