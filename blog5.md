@@ -22,7 +22,7 @@ Login to Power BI Desktop using Microsoft Credentials. Click on Get Data and sel
 
 ![Power BI OData feed](https://user-images.githubusercontent.com/64436573/173185896-8474c764-5fbd-4a0d-a56f-7144cdd9fa06.png)
 
-Just copy the API URL https://graph.microsoft.com/beta/users from the Graph Explorer that can be pasted in the OData feed as shown in the image above. You must login to Graph Explorer before inmporting data.
+Just copy the API URL https://graph.microsoft.com/beta/users from the Graph Explorer that can be pasted in the OData feed as shown in the image above. You must login to Graph Explorer before importing data.
 
 Next, import the data shown in your dashboard and then it’s good to go.
 
