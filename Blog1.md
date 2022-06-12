@@ -169,5 +169,46 @@ Power platform has some other powerful features which increase the customization
 
 ## 1. AI BUILDER:
 
+  This feature of Power platform allows users to add AI capabilities to their Power apps and Power automate. This feature makes Power platform intelligent and can make predictions for better business solutions. 
+To add AI capabilities to our workflows and apps we can locate its button on the left panel in Power automate and in Power apps.
+
+## 2. Microsoft data verse:
+
+As its name suggests that it’s a platform for data storage and data integration with Power platforms components. It facilitates the user to add data from multiple resources and integrate it with power platform for usage. As we need data for every component of Power platform to make it functional and that data is stored and manipulated in Microsoft Data verse.
+
+## 3. Connectors:
+
+Connectors help us to connect apps, data and devices for cohesive actions and functionalities. 
+Let say we have data stored in our Dropbox account and we want to use it in our Power app then we will use the Dropbox connector for importing that data in Power apps platform. We can use the connectors functionalities by locating it on the left panel in Power apps and in Power automate. There are various options available for connecting various connectors, examples of popular connectors include Salesforce, Office 365, Twitter, Dropbox, Google services, and more.
+
+# 5. Introduction to Microsoft graph
+
+Microsoft graph is an API which is used to connect to various services of Microsoft 365 and we can also use it to access data in Microsoft 365, Windows, and Enterprise Mobility + Security. It can add intelligence and security to our apps which will interact with millions of users. It can automate our tasks and can make decisions for us based on the data provided.
+
+We can start our initial journey with Microsoft graph by exploring the “Graph explorer”.
+
+###### Graph explorer:
+
+Graph explorer provides samples for creating Microsoft Graph REST API requests. It contains some common scenarios to work with Microsoft graph API. We can use the samples codes for using Microsoft graph API in our apps and the sample queries are also present which can be utilized in our apps for accessing different services of Microsoft graph.
+
+   Graph Explorer includes the following elements:
    
+1. HTTP verb drop-down list
+2.	API version drop-down list
+3.	Request query address bar
+4.	Sample query
+5.	Documentation link for the sample query
+
+![1111](https://user-images.githubusercontent.com/64436573/173229513-0918ae55-c3d5-44dd-a2f8-9c082d787670.png)
+
+## Summary:
+
+In this first blog of blog series, we have just given the introduction to various components of Microsoft Power platform. We have introduced each component and also shown that how can we get started with each of these components. In the last section of this blog we have a little introduction to Microsoft Graph API which is a powerful tool for connecting to a tremendous amount of data and which can also add intelligence capabilities to our business solution.  
+
+So, congratulations on reading the first blog of this amazing blog series.
+
+![Untitled design](https://user-images.githubusercontent.com/64436573/173229523-53fc3afe-1cb1-44fb-82a2-e6dc9c70d84d.png)
+
+
+
 
