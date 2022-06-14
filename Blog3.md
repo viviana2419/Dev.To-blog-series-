@@ -30,7 +30,7 @@ Connectors help make it easier for app and flow makers to connect to other apps,
 ![Presentation1](https://user-images.githubusercontent.com/58803999/173576451-fdc44814-9960-4fd1-b02e-1a208749e625.png)
 
 ## Prerequisites
-An account on ![Power Apps Portal](https://make.powerapps.com/).
+An account on [Power Apps Portal](https://make.powerapps.com/).
 
 ## Let's get started!
 
