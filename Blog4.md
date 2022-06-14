@@ -1,6 +1,6 @@
 # Call Microsoft Graph API in Power Automate using custom connector.
 
-![images](https://user-images.githubusercontent.com/58803999/173579046-d9c28aa8-9795-4ae5-bbd3-d65968ceb470.jpg)
+![Welcome](https://user-images.githubusercontent.com/58803999/173579432-b60f69f4-c901-4005-aaaa-fde2f8feb7a9.jpeg)
 
 Credits- http://m.alnafsy.com/
 
@@ -10,7 +10,7 @@ Now that one is well acquainted with power apps and creating a microsoft graph c
 Custom connectors are supported by Microsoft Azure API Management infrastructure. When a connection to the underlying API is created, the API Management gateway stores the API credentials or tokens, depending on the type of authentication used, on a per-connection basis in a token store. This solution enables authentication at the connection level. 
 
 
-![index](https://user-images.githubusercontent.com/58803999/173577717-0f94b26b-30ff-403b-9d68-65a909bd7680.png)
+![Key](https://user-images.githubusercontent.com/58803999/173577717-0f94b26b-30ff-403b-9d68-65a909bd7680.png)
 
 Credits- https://commons.wikimedia.org/wiki/File:Crypto_key.svg
 
@@ -24,7 +24,7 @@ Before using any connector in Azure Logic Apps, Power Automate, or Power Apps, t
 
 ## Azure AD Authentication
 
-![Presentation2](https://user-images.githubusercontent.com/58803999/173578298-28c17b34-e341-46b8-bb66-563d862d2f13.png)
+![Steps](https://user-images.githubusercontent.com/58803999/173578298-28c17b34-e341-46b8-bb66-563d862d2f13.png)
 
 ## Prerequisites
 An account on [Power Apps Portal](https://make.powerapps.com/), [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer), [Microsoft Azure](portal.azure.com).
@@ -118,6 +118,6 @@ An account on [Power Apps Portal](https://make.powerapps.com/), [Graph Explorer]
 
 [Basics of Power BI](https://docs.microsoft.com/en-us/power-platform/admin/use-power-bi)
 
-![Pic Credits](https://cdn.pixabay.com/photo/2014/07/15/19/55/thank-you-394180_1280.png)
+![Thank You](https://cdn.pixabay.com/photo/2014/07/15/19/55/thank-you-394180_1280.png)
 
 Credits- https://cdn.pixabay.com/photo/2014/07/15/19/55/thank-you-394180_1280.png
