@@ -1,6 +1,10 @@
 # Call Microsoft Graph API in Power Automate using custom connector.
 
-Now that one is well acquainted with power apps and creating a microsoft graph custom connector in it, let us familiarize ourselves with the following terms once so that we can proceed to call Microsoft graph API in Power Automate for which we will require to set the criteria in authentication.
+![images](https://user-images.githubusercontent.com/58803999/173579046-d9c28aa8-9795-4ae5-bbd3-d65968ceb470.jpg)
+
+Credits- http://m.alnafsy.com/
+
+Now that one is well acquainted with power apps and creating a microsoft graph custom connector in it, let us familiarize ourselves with the following terms once so that we can proceed to call Microsoft graph API in Power Automate using custome connectors for which we will require to set the criteria in authentication.
 
 ## Azure API Management Gateway
 Custom connectors are supported by Microsoft Azure API Management infrastructure. When a connection to the underlying API is created, the API Management gateway stores the API credentials or tokens, depending on the type of authentication used, on a per-connection basis in a token store. This solution enables authentication at the connection level. 
@@ -115,3 +119,5 @@ An account on [Power Apps Portal](https://make.powerapps.com/), [Graph Explorer]
 [Basics of Power BI](https://docs.microsoft.com/en-us/power-platform/admin/use-power-bi)
 
 ![Pic Credits](https://cdn.pixabay.com/photo/2014/07/15/19/55/thank-you-394180_1280.png)
+
+Credits- https://cdn.pixabay.com/photo/2014/07/15/19/55/thank-you-394180_1280.png
