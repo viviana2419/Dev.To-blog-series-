@@ -27,6 +27,7 @@ Connectors help make it easier for app and flow makers to connect to other apps,
 * Connectors have actions that allow makers to control when an operation is performed.
 * Connectors can have triggers that allow automation to start when the triggering event occurs.
 
+## Create a custom connector
 ![Presentation1](https://user-images.githubusercontent.com/58803999/173576451-fdc44814-9960-4fd1-b02e-1a208749e625.png)
 
 ## Prerequisites
