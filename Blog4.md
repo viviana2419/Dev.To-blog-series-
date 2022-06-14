@@ -99,6 +99,8 @@ Willingness to learn. Are you ready? Let's go!
 2. Provide your credentials. Read the requested permissions and continue. 
 3. Select Refresh connections and Test operation. You should see a 200 status, and the response should look like the image.
 
+![response-status](https://user-images.githubusercontent.com/58803999/173576351-34136c2c-e24f-458f-a23a-98921fe56177.png)
+
 ## Summary
 **Congratulations!** You have now created an environment to call Microsoft Graph API in Power Automate and can proceed to learn more in this area. Do leave your feedback in the comments below. Our next blog will on how to [connect Power BI to Microsoft Graph](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/blog5.md). Stay tuned!
 
