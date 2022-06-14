@@ -116,4 +116,4 @@ Willingness to learn. Are you ready? Let's go!
 
 [Basics of Power BI](https://docs.microsoft.com/en-us/power-platform/admin/use-power-bi)
 
-![2](https://user-images.githubusercontent.com/58803999/172188642-60ab19c2-f9df-426e-8e15-35baf7243925.jpg)
+![Pic Credits](https://cdn.pixabay.com/photo/2014/07/15/19/55/thank-you-394180_1280.png)
