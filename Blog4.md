@@ -1,10 +1,17 @@
 # Call Microsoft Graph API in Power Automate using custom connector.
 
+Now that one is well acquainted with power apps and creating a microsoft graph custom connector in it, let us familiarize ourselves with the following terms once so that we can proceed to call Microsoft graph API in Power Automate for which we will require to set the criteria in authentication.
+
 ## Azure API Management Gateway
 Custom connectors are supported by Microsoft Azure API Management infrastructure. When a connection to the underlying API is created, the API Management gateway stores the API credentials or tokens, depending on the type of authentication used, on a per-connection basis in a token store. This solution enables authentication at the connection level. 
 
+
+![index](https://user-images.githubusercontent.com/58803999/173577717-0f94b26b-30ff-403b-9d68-65a909bd7680.png)
+
+Credits- https://commons.wikimedia.org/wiki/File:Crypto_key.svg
+
 ## Azure API Authentication
-Before using any connector in Azure Logic Apps, Power Automate, or Power Apps, the user needs to create a connection by authenticating to the network service. 
+Before using any connector in Azure Logic Apps, Power Automate, or Power Apps, the user needs to create a connection by authenticating to the network service. There are different types of authentication. 
 1. No authentication- No further information is required. 
 2. Basic authentication- The user will provide the user name and password to create the connection. 
 3. API Key- Used by web services. Make sure that you define- Parameter label, Parameter name, Parameter location
@@ -12,13 +19,11 @@ Before using any connector in Azure Logic Apps, Power Automate, or Power Apps, t
 5. Windows authentication- Available only for connections that use on-premises data gateway, when the Connect via on-premises data gateway check box is set on the General tab. When a new connection is created, the user will need to provide Windows credentials for the service and then select one of the installed on-premises gateways.
 
 ## Azure AD Authentication
-1. Select the Authentication/Authorization blade.
-2. Enable the App Service Authentication.
-3. Set the default action on unauthorized access.
-4. Configure and register the app in Azure Active Directory.
+
+![Presentation2](https://user-images.githubusercontent.com/58803999/173578298-28c17b34-e341-46b8-bb66-563d862d2f13.png)
 
 ## Prerequisites
-Willingness to learn. Are you ready? Let's go!
+An account on [Power Apps Portal](https://make.powerapps.com/), [Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer), [Microsoft Azure](portal.azure.com).
 
 ## Let's get started!
 
