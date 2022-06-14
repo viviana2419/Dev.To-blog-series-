@@ -64,8 +64,6 @@ An account on [Power Apps Portal](https://make.powerapps.com/).
 4. Enter Microsoft graph for Connector name.
 5. Scroll down, enter graph.microsoft.com for Host and /v1.0 for Base URL.
 
-![Screenshot (6)](https://user-images.githubusercontent.com/58803999/172186743-3f2b25fb-6187-454d-aa08-a98184a469e9.png)
-
 ![Img2](https://user-images.githubusercontent.com/58803999/172184483-39298b7d-4e31-4bc5-90e1-74ce1521759a.png)
 
 6. Go to the Security option. Since we are just creating a custom connection, you can choose "No authentication" else any other type of authentication as per your needs.
