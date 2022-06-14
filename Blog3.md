@@ -1,5 +1,9 @@
 # Creating Microsoft Graph custom connector in Power Apps.
 
+![Welcome](https://user-images.githubusercontent.com/58803999/173579147-69a69c07-1de9-4b6d-b3f9-2c9f98898b53.jpg)
+
+Credit- 
+
 ## What are Power Apps?
 * Power Apps is a **suite of apps, services, connectors, and a data platform**, that provides a rapid development environment to build custom apps for business needs. 
 * Using Power Apps, one can quickly **build custom business apps that connect to data stored** either **in the underlying data platform** (Microsoft Dataverse) or in various **online and on-premises data sources** (such as SharePoint, Microsoft 365, Dynamics 365, SQL Server). 
@@ -11,7 +15,7 @@
 * Microsoft Graph connectors work in the incoming direction, delivering data external to the Microsoft cloud into Microsoft Graph services and applications to enhance Microsoft 365 experiences such as Microsoft Search.
 * Microsoft Graph Data Connect provides a set of **tools to streamline secure and scalable delivery of Microsoft Graph data** to popular Azure data stores. The cached data serves as data sources for Azure development tools that you can use to build intelligent applications.
 
-![Credits](https://docs.microsoft.com/en-us/graph/images/microsoft-graph.png)
+![Microsoft Graph](https://docs.microsoft.com/en-us/graph/images/microsoft-graph.png)
 
 Credits- https://docs.microsoft.com/en-us/graph/images/microsoft-graph.png
 
@@ -28,7 +32,7 @@ Connectors help make it easier for app and flow makers to connect to other apps,
 * Connectors can have triggers that allow automation to start when the triggering event occurs.
 
 ## Create a custom connector
-![Presentation1](https://user-images.githubusercontent.com/58803999/173576451-fdc44814-9960-4fd1-b02e-1a208749e625.png)
+![Steps](https://user-images.githubusercontent.com/58803999/173576451-fdc44814-9960-4fd1-b02e-1a208749e625.png)
 
 ## Prerequisites
 An account on [Power Apps Portal](https://make.powerapps.com/).
@@ -73,5 +77,5 @@ An account on [Power Apps Portal](https://make.powerapps.com/).
 
 [List used for building a Microsoft connector](https://docs.microsoft.com/en-us/graph/api/insights-list-used/)
 
-![Pic Credits](https://cdn.pixabay.com/photo/2014/07/15/19/55/thank-you-394180_1280.png)
+![Thank You](https://cdn.pixabay.com/photo/2014/07/15/19/55/thank-you-394180_1280.png)
 Credits- https://cdn.pixabay.com/photo/2014/07/15/19/55/thank-you-394180_1280.png
