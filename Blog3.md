@@ -11,8 +11,8 @@
 * Microsoft Graph connectors work in the incoming direction, delivering data external to the Microsoft cloud into Microsoft Graph services and applications to enhance Microsoft 365 experiences such as Microsoft Search.
 * Microsoft Graph Data Connect provides a set of **tools to streamline secure and scalable delivery of Microsoft Graph data** to popular Azure data stores. The cached data serves as data sources for Azure development tools that you can use to build intelligent applications.
 
-![img1](https://user-images.githubusercontent.com/58803999/172055576-a3100eea-e65d-4e97-937d-606b5d0f55e1.png)
 ![Credits](https://docs.microsoft.com/en-us/graph/images/microsoft-graph.png)
+Credits- https://docs.microsoft.com/en-us/graph/images/microsoft-graph.png
 
 ## What are the uses of Microsoft Graph?
 One can use Microsoft Graph to:
@@ -79,5 +79,5 @@ An account on ![Power Apps Portal](https://make.powerapps.com/).
 
 [List used for building a Microsoft connector](https://docs.microsoft.com/en-us/graph/api/insights-list-used/)
 
-![2](https://user-images.githubusercontent.com/58803999/172188546-3b608b51-1d64-4719-a614-e84a3eda6db7.jpg)
 ![Pic Credits](https://cdn.pixabay.com/photo/2014/07/15/19/55/thank-you-394180_1280.png)
+Credits- https://cdn.pixabay.com/photo/2014/07/15/19/55/thank-you-394180_1280.png
