@@ -4,6 +4,8 @@
 
 Credit- http://m.alnafsy.com/
 
+To creat Microsoft Graph custome connector in Power Apps, let us get acquainted with some important terms first.
+
 ## What are Power Apps?
 * Power Apps is a **suite of apps, services, connectors, and a data platform**, that provides a rapid development environment to build custom apps for business needs. 
 * Using Power Apps, one can quickly **build custom business apps that connect to data stored** either **in the underlying data platform** (Microsoft Dataverse) or in various **online and on-premises data sources** (such as SharePoint, Microsoft 365, Dynamics 365, SQL Server). 
@@ -18,6 +20,15 @@ Credit- http://m.alnafsy.com/
 ![Microsoft Graph](https://docs.microsoft.com/en-us/graph/images/microsoft-graph.png)
 
 Credits- https://docs.microsoft.com/en-us/graph/images/microsoft-graph.png
+
+## How can Power Apps bring positive changes in the education system?
+1. One can create learning games in a cohesive system. Students can choose which subject they want to work on. They’ll demonstrate that they’ve learned the skill in question, and collect points.
+2. One can create a variety of different apps that tackle different learning processes. If there are children with dyslexia, coping strategies for the disorder can be incorporated into the program.
+3. One can create a smart tracking system to keep up with student proficiency by flagging various questions and exercises with different proficiency tags when creating them.
+
+![Pen](https://user-images.githubusercontent.com/58803999/173583268-6cd5755f-285f-478d-9c33-5764b49f26ee.jpg)
+
+Credits- https://pixnio.com/free-images/2017/05/31/2017-05-31-10-23-44-900x675.jpg
 
 ## What are the uses of Microsoft Graph?
 One can use Microsoft Graph to:
