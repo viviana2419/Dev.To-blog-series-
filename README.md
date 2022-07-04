@@ -1,4 +1,4 @@
-# Dev.To-blog-series-
+# PowerPlatform+ MS Graph
 This blog series introduce Power platform ecosystem with Microsoft Graph with use cases for people from the field of education.Our goal is to empower readers to build solutions easily and identifing undiscovered resources!
  
 * [Blog 1: Introduction to Power Platform and Microsoft Graph](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/Blog1.md) 
