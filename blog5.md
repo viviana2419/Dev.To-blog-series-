@@ -58,3 +58,4 @@ So it was the short and precise overview of Graph API, we can further explore it
 
 [Use Graph Explorer to try Microsoft Graph APIs](https://docs.microsoft.com/en-us/graph/graph-explorer/graph-explorer-overview)
 
+## [Blog 6: Bring AI to your life with Power Virtual Agents and Ms Graph](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/Blog6.md)
