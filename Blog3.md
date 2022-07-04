@@ -51,30 +51,37 @@ An account on [Power Apps Portal](https://make.powerapps.com/).
 ## Let's get started!
 
 **Step 1:** Create a new solution.
-1. Go to [Power Apps maker portal](https://make.powerapps.com/) and make sure to be in the correct environment.
-2. Select Solutions > + New solution and enter the following details. 
-3. Don't navigate away from this page after selecting 'Create'.
+Go to [Power Apps maker portal](https://make.powerapps.com/) and make sure to be in the correct environment.
+
+Select Solutions > + New solution and enter the following details. 
+
+Don't navigate away from this page after selecting 'Create'.
 
 ![Img1](https://user-images.githubusercontent.com/58803999/172183894-ace14d0e-8283-4d03-b0d2-9b9cd52826e8.png)
 
 **Step 2:** Create a custom connector.
-1. Go to [Power Apps admin portal](https://make.powerapps.com/) and make sure that you are in the correct environment.
-2. Select Solutions and then select to open the Microsoft Graph solution that you created in Task 1: Create a new solution.
-3. Select + New > Automation > Custom connector.
-4. Enter Microsoft graph for Connector name.
-5. Scroll down, enter graph.microsoft.com for Host and /v1.0 for Base URL.
+Go to [Power Apps admin portal](https://make.powerapps.com/) and make sure that you are in the correct environment.
+
+Select Solutions and then select to open the Microsoft Graph solution that you created in Task 1: Create a new solution.
+
+Select + New > Automation > Custom connector.
+
+Enter Microsoft graph for Connector name.
+
+Scroll down, enter graph.microsoft.com for Host and /v1.0 for Base URL.
 
 ![Img2](https://user-images.githubusercontent.com/58803999/172184483-39298b7d-4e31-4bc5-90e1-74ce1521759a.png)
 
-6. Go to the Security option. Since we are just creating a custom connection, you can choose "No authentication" else any other type of authentication as per your needs.
+
+Go to the Security option. Since we are just creating a custom connection, you can choose "No authentication" else any other type of authentication as per your needs.
 
 ![Img4](https://user-images.githubusercontent.com/58803999/172185436-b5293f9f-4754-4aeb-965d-ae33d2531875.png)
 
-7. Go to the Definition option. You can leave it as it is and move to the Code (Preview) option.
+Go to the Definition option. You can leave it as it is and move to the Code (Preview) option.
 
 ![Img5](https://user-images.githubusercontent.com/58803999/172186091-85c88a0a-25e8-4f5d-93ab-8958acce6d8f.png)
 
-8. You can leave it as it is and click on "Create Connector".
+You can leave it as it is and click on "Create Connector".
 
 ![Img7](https://user-images.githubusercontent.com/58803999/172187284-6c7d0416-0f20-40fa-b1c6-9658351936dd.png)
 
@@ -88,3 +95,5 @@ An account on [Power Apps Portal](https://make.powerapps.com/).
 
 ![Thank You](https://cdn.pixabay.com/photo/2014/07/15/19/55/thank-you-394180_1280.png)
 Credits- https://cdn.pixabay.com/photo/2014/07/15/19/55/thank-you-394180_1280.png
+
+## [Blog 4: Call Microsoft Graph API in Power Automate using custom connector](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/Blog4.md)
