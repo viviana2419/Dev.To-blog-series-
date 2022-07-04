@@ -118,6 +118,4 @@ An account on [Power Apps Portal](https://make.powerapps.com/), [Graph Explorer]
 
 [Basics of Power BI](https://docs.microsoft.com/en-us/power-platform/admin/use-power-bi)
 
-![Thank You](https://cdn.pixabay.com/photo/2014/07/15/19/55/thank-you-394180_1280.png)
-
-Credits- https://cdn.pixabay.com/photo/2014/07/15/19/55/thank-you-394180_1280.png
+## [Blog 5: Connecting Power BI to Microsoft Graph](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/blog5.md)
