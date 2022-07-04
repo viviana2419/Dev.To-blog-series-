@@ -1,6 +1,3 @@
-# Structure of blog series
-![Earthy Abstract Watercolor Landscape Canvas Print](https://user-images.githubusercontent.com/64436573/170354915-a4a319db-55bf-48a7-bd09-1e5f595d1bb6.png)
-
 This blog series introduces the Power platform ecosystem and includes a broad understanding of the Power platform with additional resources for people from different backgrounds no matter as consultant, data analyst, or developer. The blog series aim to empower readers to build solutions easily that normally require developer expertise and to hone the consulting skills regarding business problems!
 * [Blog 1: Introduction to Power Platform and Microsoft Graph](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/Blog1.md) 
 * [Blog 2: Access User Data from Microsoft Graph](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/blog2.md)
@@ -8,12 +5,6 @@ This blog series introduces the Power platform ecosystem and includes a broad un
 * [Blog 4: Call Microsoft Graph API in Power Automate using custom connector](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/Blog4.md)
 * [Blog 5: Connecting Power BI to Microsoft Graph](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/blog5.md)
 * [Blog 6: Bring AI to your life with Power Virtual Agents and Ms Graph](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/Blog6.md)
-
-# Introduction to Power Platform and Microsoft Graph
-![Earthy Abstract Watercolor Landscape Canvas Print (1)](https://user-images.githubusercontent.com/64436573/170357101-a981f9fd-fda3-4075-ac8a-d3273d11f487.png)
-(from https://www.canva.com/) 
-
-
 
 # Prerequisite:
 To learn and build with Power Platform, there are no prerequisite required. We will start from the very basics and will learn the track step by step. In this blog we are going to answer the questions which evolve in every person’s mind who starts with Power Platform in order to hone their business. We will learn this technology in details and will also define its pros and cons.
@@ -27,11 +18,6 @@ After leaning this track, you will be able to
 * To automate workflows and repetitive processes using Power Automate.
 * Analyze data, visualize data and make decisions using analyzed data with the help of Power BI.
 * Work with the most powerful AI oriented technology called Power Virtual Agents.
-
-# Why Power Platform 
-The very first question that arises in our mind before starting with Power Platform is “Why Power Platform”. So, the simple answer is “Because its matter your business”.
-
-In this competitive world every business owner is always in search of how to innovate and upgrade his/her business. And in this regard. Microsoft Power Platform has a great impact on approximately every kind of business. With the help of Microsoft Power Platform, we can automate our business and can utilize our time accurately and wisely. It can simplify the tedious tasks which seem to be more burden as compared to actual job tasks.
 
 # Introduction to power platform
 ![2a51caf5af85acce41a0b9a8444c3ae6](https://user-images.githubusercontent.com/64436573/170357712-80510604-616b-4046-9556-8202bdb01c6c.png)
@@ -51,29 +37,33 @@ The Microsoft Power Platform is used by many businesses – both big and small. 
 
 So now its time to dive into details of each component of Power Platform.
 
-   - ## [POWER APPS](https://powerapps.microsoft.com/en-us/)
-     ![download](https://user-images.githubusercontent.com/64436573/170779669-e59a8ce3-b4bb-4cfb-9745-7fa2dbb93e36.png)
-     
-     PowerApps is a drag and drop interface which allow users to create apps with no-code/low code development. And the apps designed through PowerApps can run on Android, iOS, windows and on any internet browser, this feature of PowerApps makes it the leader of other app development platforms. PowerApps also provides other services, connectors and data platforms which are helpful in creating custom apps for business solutions.	 PowerApps can quickly transform any manual business to digital operations by providing interactive interfaces and several functionalities for better performance.
-     
-     How to create a PowerApps app?
-     
-     1. First click on this link [click here](https://make.powerapps.com/) and sign in or create account. After signing in below interface will appear which provides various data platforms to import data from and create the app. So we will create an app using excel workbook so I will click on excel
+## [POWER APPS](https://powerapps.microsoft.com/en-us/)
+PowerApps is a drag and drop interface which allow users to create apps with no-code/low code development. And the apps designed through PowerApps can run on Android, iOS, windows and on any internet browser, this feature of PowerApps makes it the leader of other app development platforms. PowerApps also provides other services, connectors and data platforms which are helpful in creating custom apps for business solutions.	 PowerApps can quickly transform any manual business to digital operations by providing interactive interfaces and several functionalities for better performance.
+
+**How to create a PowerApps app?**
+
+First click on this link [click here](https://make.powerapps.com/) and sign in or create account. After signing in below interface will appear which provides various data platforms to import data from and create the app. So we will create an app using excel workbook so I will click on excel
      ![pa1](https://user-images.githubusercontent.com/64436573/170857112-db9510cd-a0db-4dc5-8926-e1394b04d746.png)
-     2. After clicking on excel below interface will appear  
+
+After clicking on excel below interface will appear  
 ![pa2](https://user-images.githubusercontent.com/64436573/170857148-c6b5f964-4aa9-4745-9355-9f17f2ade976.png)
 This interface shows the various connections for importing data. I will click on one drive for business for importing excel workbook and then click on create. After clicking on create, select the file as shown below
   ![Background](https://user-images.githubusercontent.com/64436573/170857604-db6f4826-4cc5-4e00-a2d1-346011be660d.png)
-     3. After selecting excel file, select table as shown below and then click on connect
+
+After selecting excel file, select table as shown below and then click on connect
      ![pa3](https://user-images.githubusercontent.com/64436573/170857796-1311b929-2e64-449a-8c54-dd98d955d37b.png)
-     4. After clicking on connect below interface will appear
+
+After clicking on connect below interface will appear
      ![pa4](https://user-images.githubusercontent.com/64436573/170857844-101d85e3-5622-4abf-8c06-490c04155721.png)
-     Based on the data, power apps create default app for us which can be customized by us.
-     5. We can now click on icons and can customize them easily. When we click on play button in the top right corner then the interface changes and we can browse our apps and can check it as how it will work after publishing
+
+Based on the data, power apps create default app for us which can be customized by us.
+
+We can now click on icons and can customize them easily. When we click on play button in the top right corner then the interface changes and we can browse our apps and can check it as how it will work after publishing
      ![pa5](https://user-images.githubusercontent.com/64436573/170858024-a8a73e2a-30c8-42ea-8fde-148d31875171.png)
-     6. After customizing the app we can use it by selecting file and then click on save as and now we can install it on our phones etc
+
+After customizing the app we can use it by selecting file and then click on save as and now we can install it on our phones etc
      
-   - ## [POWER AUTOMATE](https://powerautomate.microsoft.com/en-us/)
+## [POWER AUTOMATE](https://powerautomate.microsoft.com/en-us/)
 
 ![download](https://user-images.githubusercontent.com/64436573/170858193-96469cf0-4873-4679-aa38-aee8a25c2de3.png)
 
@@ -88,7 +78,7 @@ As its name suggest, it’s a tool for automation. It helps automate the repetit
 
 So these are some of the functions which Power automate can do. Power automate can connect to various data sources and API’s for improved automation.  
 
-How to create our first workflow with Power automate?
+**How to create our first workflow with Power automate?**
 
    i. Sign in to [Microsoft 365 account](https://www.office.com/).
    
@@ -116,11 +106,11 @@ Settings for push notifications
 viii. Now click on save in the top right corner to save the workflow. After saving the workflow below notification will appear on the top. We can also test our workflow by clicking on “test” button.
 ![55](https://user-images.githubusercontent.com/64436573/173187431-f2c5d187-405e-4281-b9f2-12b31e82d77f.png)
 
-- ## [Power BI](https://powerbi.microsoft.com/en-us/)
+## [Power BI](https://powerbi.microsoft.com/en-us/)
 
 Power BI is all about data visualization and dashboarding. It is useful for visualizing the complex data and convert the complex numbers into interactive graphs and visuals. As visuals are more understandable than numbers, so Power BI can transform the number and calculations into immersive visuals which can be easily understood by non-technical peoples.
 
-How to work with Power BI?
+**How to work with Power BI?**
 
 i. We can start working with Power BI by using online web portal or install Power BI Desktop app.
 
@@ -141,11 +131,11 @@ vi.Here we can create our visuals and dashboards. Various panels are present whe
 
 Here we can add further customizations depending on the technicality of designer. 
 
-- ## [Power virtual agents](https://powervirtualagents.microsoft.com/en-us/)
+## [Power virtual agents](https://powervirtualagents.microsoft.com/en-us/)
 
 Power virtual agent is that component of Power Platform which is used to create chat bots for automatic communication. It is drag and drop interface where no code is required and there is no need of data scientists or developers for designing powerful chatbots.
 
-So, what are chatbots?
+**So, what are chatbots?**
 
 Basically, if we have company and we are selling software’s then on daily basis we can have thousands of customers who may face problems while using our software’s or some customers want to know about our company then a single person can’t handle all these customers at a time so what we can do is that we can create a chat bot with the help of Power virtual agents where we will populate all the information and general questions & answers related to our software’s and company, so when ever a customer visits our site and he/she want to communicate with us then a chatbot will be initiated for conversation and based on the selected problem the solution will be provided by the chatbot.
 
@@ -154,35 +144,33 @@ We can start our chatbot creation journey by clicking on this link [Microsoft Po
 Below is the interface of power virtual agents chatbot creation.
 ![content-image-1](https://user-images.githubusercontent.com/64436573/173188122-f4443240-0c53-42e8-8aa2-255d15c22aa7.png)
 
-- ## Features of Power Platform
+## Features of Power Platform
 
 Power platform has some other powerful features which increase the customization and capabilities of Power platform. Due to these features Power platform provides robust solutions to almost any kind of business. So the detail of these features is given below:
 
-## 1. [AI BUILDER](https://docs.microsoft.com/en-us/ai-builder/):
+ * [AI BUILDER](https://docs.microsoft.com/en-us/ai-builder/):
 
   This feature of Power platform allows users to add AI capabilities to their Power apps and Power automate. This feature makes Power platform intelligent and can make predictions for better business solutions. 
 To add AI capabilities to our workflows and apps we can locate its button on the left panel in Power automate and in Power apps.
 
-## 2. [Microsoft data verse](https://docs.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro):
+* [Microsoft data verse](https://docs.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro):
 
 As its name suggests that it’s a platform for data storage and data integration with Power platforms components. It facilitates the user to add data from multiple resources and integrate it with power platform for usage. As we need data for every component of Power platform to make it functional and that data is stored and manipulated in Microsoft Data verse.
 
-## 3. [Connectors](https://docs.microsoft.com/en-us/connectors/):
+* [Connectors](https://docs.microsoft.com/en-us/connectors/):
 
 Connectors help us to connect apps, data and devices for cohesive actions and functionalities. 
 Let say we have data stored in our Dropbox account and we want to use it in our Power app then we will use the Dropbox connector for importing that data in Power apps platform. We can use the connectors functionalities by locating it on the left panel in Power apps and in Power automate. There are various options available for connecting various connectors, examples of popular connectors include Salesforce, Office 365, Twitter, Dropbox, Google services, and more.
 
-# 5. [Introduction to Microsoft graph](https://developer.microsoft.com/en-us/graph)
+## [Introduction to Microsoft graph](https://developer.microsoft.com/en-us/graph)
 
 Microsoft graph is an API which is used to connect to various services of Microsoft 365 and we can also use it to access data in Microsoft 365, Windows, and Enterprise Mobility + Security. It can add intelligence and security to our apps which will interact with millions of users. It can automate our tasks and can make decisions for us based on the data provided.
 
-We can start our initial journey with Microsoft graph by exploring the “Graph explorer”.
-
-###### [Graph explorer](https://developer.microsoft.com/en-us/graph/graph-explorer):
+We can start our initial journey with Microsoft graph by exploring the “[Graph explorer]([url](https://developer.microsoft.com/en-us/graph/graph-explorer))”.
 
 Graph explorer provides samples for creating Microsoft Graph REST API requests. It contains some common scenarios to work with Microsoft graph API. We can use the samples codes for using Microsoft graph API in our apps and the sample queries are also present which can be utilized in our apps for accessing different services of Microsoft graph.
 
-   Graph Explorer includes the following elements:
+Graph Explorer includes the following elements:
    
 1. HTTP verb drop-down list
 2.	API version drop-down list
@@ -205,11 +193,6 @@ if you are interested to further learn these technologies then below are some us
 ## Summary:
 
 In this first blog of blog series, we have just given the introduction to various components of Microsoft Power platform. We have introduced each component and also shown that how can we get started with each of these components. In the last section of this blog we have a little introduction to Microsoft Graph API which is a powerful tool for connecting to a tremendous amount of data and which can also add intelligence capabilities to our business solution.  
-
-So, congratulations on reading the first blog of this amazing blog series.
-
-![Untitled design](https://user-images.githubusercontent.com/64436573/173229523-53fc3afe-1cb1-44fb-82a2-e6dc9c70d84d.png)
-(from https://www.canva.com/)
 
 
 
