@@ -79,9 +79,11 @@ Interested in learning more about Graph? We saw this ahead and prepared the **fo
 * [MS Doc: Graph Education API overview](https://docs.microsoft.com/en-us/graph/education-concept-overview)
 
 ## Summary
-Good job on reading so far! In this post, we learned what can you do with the Microsoft Graph user resource, how to access user data through Microsoft Graph in different ways, and how to use Graph to solve problems in the realm of education. How's it going with you? Please **comment below**! Our next blog will talk about **how to connect Microsoft Graph with Power Apps**. Stay tuned!
+Good job on reading so far! In this post, we learned what can you do with the Microsoft Graph user resource, how to access user data through Microsoft Graph in different ways, and how to use Graph to solve problems in the realm of education. 
 ![image](https://user-images.githubusercontent.com/49314681/171875194-48de3bfe-5dd7-49ac-9513-c0ca81b09760.png)
 (from https://pin.it/4JwkcWS)
+
+## [Blog 3: Creating Microsoft Graph custom connector in Power Apps](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/Blog3.md)
 
 
 
