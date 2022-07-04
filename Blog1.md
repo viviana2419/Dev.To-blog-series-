@@ -190,11 +190,11 @@ if you are interested to further learn these technologies then below are some us
 * [Microsoft Graph documentation](https://docs.microsoft.com/en-us/graph/)
 * [Explore Microsoft Graph](https://docs.microsoft.com/en-us/learn/modules/microsoft-graph/)
 
-## Summary:
+## Summary
 
 In this first blog of blog series, we have just given the introduction to various components of Microsoft Power platform. We have introduced each component and also shown that how can we get started with each of these components. In the last section of this blog we have a little introduction to Microsoft Graph API which is a powerful tool for connecting to a tremendous amount of data and which can also add intelligence capabilities to our business solution.  
 
-
+## [Blog 2: Access User Data from Microsoft Graph](https://github.com/viviana2419/Dev.To-blog-series-/blob/main/blog2.md)
 
 
 
