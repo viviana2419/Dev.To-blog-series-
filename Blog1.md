@@ -12,7 +12,7 @@ To learn and build with Power Platform, there are no prerequisite required. We w
 So we encourage the readers to start learning Power Platform without worrying about the prerequisites for this learning path.
 
 # Expected Outcomes
-After leaning this track, you will be able to
+After learning this track, you will be able to
 * Work with power platform components to create best business solutions.
 * Create custom apps using Power apps without having coding skills.
 * To automate workflows and repetitive processes using Power Automate.
