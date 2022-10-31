@@ -4,7 +4,7 @@
 
 Credit- http://m.alnafsy.com/
 
-To creat Microsoft Graph custome connector in Power Apps, let us get acquainted with some important terms first.
+To create Microsoft Graph custom connector in Power Apps, let us get acquainted with some important terms first.
 
 ## What are Power Apps?
 * Power Apps is a **suite of apps, services, connectors, and a data platform**, that provides a rapid development environment to build custom apps for business needs. 
